@@ -27,11 +27,11 @@ const HEADER_LABELS = {
 
 // Set the folder path for each column that should have PDF links
 const PDF_PATHS = {
-  'APCCL-embalaje': 'pdfs',
-  'APC-embalaje': 'pdfs',
-  'AC-embalaje': 'pdfs',
-  'EQ': 'pdfs',           // change folder later if needed
-  'Disp-espec': 'DE',
+  'APCCL-embalaje': 'PDF/PI',
+  'APC-embalaje': 'PDF/PI',
+  'AC-embalaje': 'PDF/PI',
+  'EQ': 'PDF/E',           // change folder later if needed
+  'Disp-espec': 'PDF/DE',
 }
 
 const INVALID_VALUES = new Set(['prohibido', 'nan', '—', '', null, undefined])
