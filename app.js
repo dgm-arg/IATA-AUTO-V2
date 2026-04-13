@@ -226,12 +226,13 @@ document.getElementById('numInput').addEventListener('keydown', e => {
 })
 
 document.getElementById('searchBtn').addEventListener('click', () => {
-  const value = document.getElementById('numInput').value
+  const raw = document.getElementById('numInput').value
 
-  if (!value) {
+  if (!raw) {
     alert('Please enter a number first.')
     return
   }
 
+  const value = String(parseInt(raw, 10))
   fetchRows(value)
 })
