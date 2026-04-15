@@ -128,10 +128,13 @@ chequear todo a manopla
 Y373 tabla 0: col_0 → Números UN
 492, 565, 679, 866 tabla 0: col_1 → Instrucciones de embalaje
 870, 871, 872 tabla 0: col_1 → Instrucciones de embalaje, col_2 eliminado (era duplicado con el mismo texto, era colspan=2 en el HTML original)
-965, 966, 967, 968, 969, 970, 977, 978 tabla 2: col_0 → Descripción
+965, 966, 967, 968, 969, 970, 977, 978 tabla 2: col_0 → Descripción 
 
 
 
+//
+PI 217, 376, 497, 875 — las 4 son tablas EMBALAJES EXTERIORES con headers pero 0 filas.
+603, 950, 217, 376, 497, 875, 494
 
 ///
 

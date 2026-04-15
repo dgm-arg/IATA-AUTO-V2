@@ -28,6 +28,10 @@
         <div class="search-box mb-3">
           <input type="text" class="form-control" id="searchInput" placeholder="Buscar PI (ej: 200, Y203, 965...)">
         </div>
+        <div class="mb-3 d-flex gap-2">
+          <button class="btn btn-sm btn-primary flex-fill active" id="btnHTML" data-mode="html">HTML</button>
+          <button class="btn btn-sm btn-outline-secondary flex-fill" id="btnPDF" data-mode="pdf">PDF</button>
+        </div>
         <div class="file-list border rounded bg-white" id="fileList"></div>
         <p class="text-muted small mt-2" id="count"></p>
       </div>
@@ -65,7 +69,8 @@ const TREE = {
   ]
 }
 
-const BASE = '0-RAW/embalajes/'
+const BASES = { html: '0-RAW/embalajes/', pdf: 'PDF/PI/' }
+let viewMode = 'html'
 const listEl = document.getElementById('fileList')
 const countEl = document.getElementById('count')
 const searchEl = document.getElementById('searchInput')
@@ -123,7 +128,12 @@ listEl.addEventListener('click', e => {
   if (!item) return
   listEl.querySelectorAll('.file-item').forEach(el => el.classList.remove('active'))
   item.classList.add('active')
-  viewer.src = BASE + item.dataset.file
+  const f = item.dataset.file
+  if (viewMode === 'pdf') {
+    viewer.src = BASES.pdf + getName(f) + '.pdf'
+  } else {
+    viewer.src = BASES.html + f
+  }
 })
 
 searchEl.addEventListener('input', () => {
@@ -137,6 +147,17 @@ searchEl.addEventListener('keydown', e => {
     const first = listEl.querySelector('.file-item')
     if (first) first.click()
   }
+})
+
+// Mode toggle
+document.querySelectorAll('[data-mode]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    viewMode = btn.dataset.mode
+    document.getElementById('btnHTML').className = 'btn btn-sm flex-fill ' + (viewMode === 'html' ? 'btn-primary active' : 'btn-outline-secondary')
+    document.getElementById('btnPDF').className = 'btn btn-sm flex-fill ' + (viewMode === 'pdf' ? 'btn-primary active' : 'btn-outline-secondary')
+    const active = listEl.querySelector('.file-item.active')
+    if (active) active.click()
+  })
 })
 
 renderTree()
