@@ -1,20 +1,14 @@
 Valores "Ver" encontrados en columnas de embalaje de tabla_onu.json
 ===================================================================
 
-Ver 10.3
-Ver 211
-Ver 603
-Ver 650
-Ver 962
-Ver 965
-Ver 968
+10.3 radioactivo
 
 ===================================================================
 Codigo sin descripcion confirmada:
 
 4N1 - aparece en PI 674 y PI 675 (tabla "EMBALAJES ÚNICOS", columna Cajas)
     - Actualmente dice: "Cajas de metal de tapa fija, distinto de acero o aluminio"
-    - VERIFICAR con experto
+    - VERIFICAR con pa
 
 Arreglar VEVO de 138
 
@@ -23,13 +17,11 @@ Arreglar VEVO de 138
  ONU 1081 (Tetrafluoretileno) no tiene EQ
 
  7.1, 7.2, 7.3 — categorías de radioactivo (I, II, III) — habría que mapearlas cuando la clase es exactamente 7.1, 7.2 o 7.3
+
 litio.png — para baterías de litio (ONU 3480, 3481, etc.)
-fissible.png — para materiales fisibles
-criogenic.png — para líquidos criogénicos
-magentizado.png — para materiales magnetizados
-alejada-del-calor.png — para peróxidos orgánicos
+
+Cuando es c/u?
 orientacion.png — etiqueta de orientación
-peligro-al-medio-ambiente.png — sustancias peligrosas para el medio ambiente
 radiactivo-bulto-exceptuado.png — bultos exceptuados radioactivos
 
 BUG 5 (BAJO) — Tablas vacías se renderizan como cascarón
@@ -119,8 +111,6 @@ PI 872, Y873
 **Clase 9:**
 PI 956, 957 (2 tablas), 961, 962, 964
 
-¿Los arreglo todos de una?
-
 chequear todo a manopla 
 
 0 col_ headers restantes. Los 16 cambios:
@@ -143,3 +133,16 @@ ONU 50, 54, 66, 92, 93, 103, 104, 186, etc. Tienen AC con PI (ej: 130, 135, 139,
 
 
 CASO ESPECIAL PI200
+
+''Tal como se permite en 5.0.6.6'' Embalajes
+
+Caso etiqueta radicativo bulto exceptuado
+caso etiqueta Orientacion
+
+Si buscás UN 1310, 1320, 1321, 1322, 1344, 1348, 1349, 1517 o 3317, verás la nota al pie de la tabla T0 de PI 451. Si buscás otros UN (ej. 1354), no aparece.
+
+consultar footer (1): Incluyendo tubos
+La cantidad total de mercancías peligrosas en equipos en cada bulto debe calcularse en relación de 1 a1 sobre la base de su volumen, es decir, 1 L es equivalente a 1 kg, véase también 8.1.6.9.2, Paso 6(e).
+450 Y450
+
+Tambien 200

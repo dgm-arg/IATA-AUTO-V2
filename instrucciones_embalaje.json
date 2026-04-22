@@ -31,22 +31,22 @@
       "texto": "A menos que se disponga otra cosa en esta Reglamentación, los embalajes deberán alcanzar los estándares de desempeño para el Grupo de Embalaje II."
     },
     {
-      "texto": "Sólidos humidificados:"
+      "texto": [
+        "Sólidos humidificados:",
+        "Los explosivos sólidos humidificados, pueden ser embalados de acuerdo con esta Instrucción de Embalaje, solamente bajo una excepción emitida por la autoridad nacional que corresponde en el Estado de origen."
+      ]
     },
     {
-      "texto": "Los explosivos sólidos humidificados, pueden ser embalados de acuerdo con esta Instrucción de Embalaje, solamente bajo una excepción emitida por la autoridad nacional que corresponde en el Estado de origen."
+      "texto": [
+        "Sólidos secos:",
+        "No se requieren embalajes intermedios."
+      ]
     },
     {
-      "texto": "Sólidos secos:"
-    },
-    {
-      "texto": "No se requieren embalajes intermedios."
-    },
-    {
-      "texto": "Requisitos de embalaje adicionales"
-    },
-    {
-      "texto": "Para el UN 0509 no deben utilizarse los embalajes de metal. Los embalajes de otros materiales que contengan una pequeña cantidad de metal, por ejemplo, cierres metálicos u otros accesorios metálicos como los que se mencionan en 6.2 no se consideran embalajes de metal.",
+      "texto": [
+        "Requisitos de embalaje adicionales",
+        "Para el UN 0509 no deben utilizarse los embalajes de metal. Los embalajes de otros materiales que contengan una pequeña cantidad de metal, por ejemplo, cierres metálicos u otros accesorios metálicos como los que se mencionan en 6.2 no se consideran embalajes de metal."
+      ],
       "un": [
         "0509"
       ]
@@ -69,72 +69,74 @@
       "texto": "No se requieren Embalajes Intermedios."
     },
     {
-      "texto": "Condiciones particulares de embalaje o excepciones:"
-    },
-    {
-      "texto": "Lo siguiente se aplica a los números UN 0006 , 0009 , 0010 , 0015 , 0016 , 0018 , 0019 , 0034 , 0035 , 0038 , 0039 , 0048 , 0056 , 0137 , 0138 , 0168 , 0169 , 0171 , 0181 , 0182 , 0183 , 0186 , 0221 , 0238 , 0243 , 0244 , 0245 , 0246 , 0254 , 0280 , 0281 , 0286 , 0287 , 0297 , 0299 , 0300 , 0301 , 0303 , 0321 , 0328 , 0329 , 0344 , 0345 , 0346 , 0347 , 0362 , 0363 , 0370 , 0412 , 0424 , 0425 , 0434 , 0435 , 0436 , 0437 , 0438 , 0451 , 0459 , 0488 , 0502 y 0510 . Los artículos explosivos pesados y de gran tamaño que, normalmente están destinados a usos militares con o sin su medio de iniciación y que contengan a lo menos dos dispositivos efectivos de protección, pueden ser transportados sin embalaje. Cuando tales artículos contengan cargas propulsoras o sean autopropulsados, sus sistemas de ignición deberán estar protegidos en contra de los estímulos que pudieran encontrarse durante las condiciones normales del transporte. Un resultado negativo en la Serie de pruebas 4 (Manual de Pruebas y Criterios de las Naciones Unidas) realizada en un artículo no embalado indicará que éste puede ser considerado para ser transportado sin embalar. Tales artículos deberán estar fijos a un caballete o contenidos en cajones u otros elementos adecuados para su manipulación, almacenaje o lanzamiento de tal forma que no lleguen a perderse durante las condiciones normales del transporte.",
-      "un": [
-        "0006",
-        "0009",
-        "0010",
-        "0015",
-        "0016",
-        "0018",
-        "0019",
-        "0034",
-        "0035",
-        "0038",
-        "0039",
-        "0048",
-        "0056",
-        "0137",
-        "0138",
-        "0168",
-        "0169",
-        "0171",
-        "0181",
-        "0182",
-        "0183",
-        "0186",
-        "0221",
-        "0238",
-        "0243",
-        "0244",
-        "0245",
-        "0246",
-        "0254",
-        "0280",
-        "0281",
-        "0286",
-        "0287",
-        "0297",
-        "0299",
-        "0300",
-        "0301",
-        "0303",
-        "0321",
-        "0328",
-        "0329",
-        "0344",
-        "0345",
-        "0346",
-        "0347",
-        "0362",
-        "0363",
-        "0370",
-        "0412",
-        "0424",
-        "0425",
-        "0434",
-        "0435",
-        "0436",
-        "0437",
-        "0438",
-        "0451",
-        "0459",
-        "0488",
-        "0502",
-        "0510"
+      "texto": "Condiciones particulares de embalaje o excepciones:",
+      "items": [
+        {
+          "texto": "Lo siguiente se aplica a los números UN 0006 , 0009 , 0010 , 0015 , 0016 , 0018 , 0019 , 0034 , 0035 , 0038 , 0039 , 0048 , 0056 , 0137 , 0138 , 0168 , 0169 , 0171 , 0181 , 0182 , 0183 , 0186 , 0221 , 0238 , 0243 , 0244 , 0245 , 0246 , 0254 , 0280 , 0281 , 0286 , 0287 , 0297 , 0299 , 0300 , 0301 , 0303 , 0321 , 0328 , 0329 , 0344 , 0345 , 0346 , 0347 , 0362 , 0363 , 0370 , 0412 , 0424 , 0425 , 0434 , 0435 , 0436 , 0437 , 0438 , 0451 , 0459 , 0488 , 0502 y 0510 . Los artículos explosivos pesados y de gran tamaño que, normalmente están destinados a usos militares con o sin su medio de iniciación y que contengan a lo menos dos dispositivos efectivos de protección, pueden ser transportados sin embalaje. Cuando tales artículos contengan cargas propulsoras o sean autopropulsados, sus sistemas de ignición deberán estar protegidos en contra de los estímulos que pudieran encontrarse durante las condiciones normales del transporte. Un resultado negativo en la Serie de pruebas 4 (Manual de Pruebas y Criterios de las Naciones Unidas) realizada en un artículo no embalado indicará que éste puede ser considerado para ser transportado sin embalar. Tales artículos deberán estar fijos a un caballete o contenidos en cajones u otros elementos adecuados para su manipulación, almacenaje o lanzamiento de tal forma que no lleguen a perderse durante las condiciones normales del transporte.",
+          "un": [
+            "0006",
+            "0009",
+            "0010",
+            "0015",
+            "0016",
+            "0018",
+            "0019",
+            "0034",
+            "0035",
+            "0038",
+            "0039",
+            "0048",
+            "0056",
+            "0137",
+            "0138",
+            "0168",
+            "0169",
+            "0171",
+            "0181",
+            "0182",
+            "0183",
+            "0186",
+            "0221",
+            "0238",
+            "0243",
+            "0244",
+            "0245",
+            "0246",
+            "0254",
+            "0280",
+            "0281",
+            "0286",
+            "0287",
+            "0297",
+            "0299",
+            "0300",
+            "0301",
+            "0303",
+            "0321",
+            "0328",
+            "0329",
+            "0344",
+            "0345",
+            "0346",
+            "0347",
+            "0362",
+            "0363",
+            "0370",
+            "0412",
+            "0424",
+            "0425",
+            "0434",
+            "0435",
+            "0436",
+            "0437",
+            "0438",
+            "0451",
+            "0459",
+            "0488",
+            "0502",
+            "0510"
+          ]
+        }
       ]
     },
     {
@@ -164,14 +166,16 @@
       "texto": "No se requieren Embalajes Intermedios."
     },
     {
-      "texto": "Condiciones particulares de embalaje o excepciones:"
-    },
-    {
-      "texto": "Para los números UN 0029 , 0267 y 0455 , las bolsas y bandejas no deben usarse como embalajes interiores.",
-      "un": [
-        "0029",
-        "0267",
-        "0455"
+      "texto": "Condiciones particulares de embalaje o excepciones:",
+      "items": [
+        {
+          "texto": "Para los números UN 0029 , 0267 y 0455 , las bolsas y bandejas no deben usarse como embalajes interiores.",
+          "un": [
+            "0029",
+            "0267",
+            "0455"
+          ]
+        }
       ]
     }
   ],
@@ -189,16 +193,18 @@
       "texto": "Los recipientes son requeridos solamente como embalajes intermedios cuando se utilicen bandejas como embalajes interiores."
     },
     {
-      "texto": "Condiciones particulares de embalaje o excepciones:"
-    },
-    {
-      "texto": "Para los números UN 0043 , 0212 , 0225 , 0268 y 0306 , las bandejas no deben usarse como embalajes interiores.",
-      "un": [
-        "0043",
-        "0212",
-        "0225",
-        "0268",
-        "0306"
+      "texto": "Condiciones particulares de embalaje o excepciones:",
+      "items": [
+        {
+          "texto": "Para los números UN 0043 , 0212 , 0225 , 0268 y 0306 , las bandejas no deben usarse como embalajes interiores.",
+          "un": [
+            "0043",
+            "0212",
+            "0225",
+            "0268",
+            "0306"
+          ]
+        }
       ]
     }
   ],
@@ -264,15 +270,17 @@
       "texto": "No se requieren Embalajes Intermedios."
     },
     {
-      "texto": "Condiciones particulares de embalaje o excepciones:"
-    },
-    {
-      "texto": "Para los números UN 0059 , UN 0439 , UN 0440 y UN 0441 , cuando las cargas huecas están embaladas individualmente, la cavidad cónica debe apuntar hacia abajo y el bulto debe ser marcado como se ilustra en la Figura 7.4.D o 7.4.E . Cuando las cargas huecas son embaladas en pares las cavidades cónicas deben apuntar hacia adentro con el propósito de minimizar los efectos del chorro en el caso de una iniciación accidental.",
-      "un": [
-        "0059",
-        "0439",
-        "0440",
-        "0441"
+      "texto": "Condiciones particulares de embalaje o excepciones:",
+      "items": [
+        {
+          "texto": "Para los números UN 0059 , UN 0439 , UN 0440 y UN 0441 , cuando las cargas huecas están embaladas individualmente, la cavidad cónica debe apuntar hacia abajo y el bulto debe ser marcado como se ilustra en la Figura 7.4.D o 7.4.E . Cuando las cargas huecas son embaladas en pares las cavidades cónicas deben apuntar hacia adentro con el propósito de minimizar los efectos del chorro en el caso de una iniciación accidental.",
+          "un": [
+            "0059",
+            "0439",
+            "0440",
+            "0441"
+          ]
+        }
       ]
     }
   ],
@@ -290,23 +298,25 @@
       "texto": "No se requieren Embalajes Intermedios."
     },
     {
-      "texto": "Condiciones particulares de embalaje o excepciones:"
-    },
-    {
-      "texto": "Para los números UN 0065 , 0102 , 0104 , 0289 y 0290 , los extremos de la mecha detonante deberán ser sellados, por ejemplo mediante un tapón obturador que impida el escape del explosivo. Los extremos del “ Mecha detonante, flexible” deben ser amarrados en forma segura.",
-      "un": [
-        "0065",
-        "0102",
-        "0104",
-        "0289",
-        "0290"
-      ]
-    },
-    {
-      "texto": "Para los números UN 0065 y 0289 no se requieren embalajes interiores cuando se encuentren en bobinas.",
-      "un": [
-        "0065",
-        "0289"
+      "texto": "Condiciones particulares de embalaje o excepciones:",
+      "items": [
+        {
+          "texto": "Para los números UN 0065 , 0102 , 0104 , 0289 y 0290 , los extremos de la mecha detonante deberán ser sellados, por ejemplo mediante un tapón obturador que impida el escape del explosivo. Los extremos del “ Mecha detonante, flexible” deben ser amarrados en forma segura.",
+          "un": [
+            "0065",
+            "0102",
+            "0104",
+            "0289",
+            "0290"
+          ]
+        },
+        {
+          "texto": "Para los números UN 0065 y 0289 no se requieren embalajes interiores cuando se encuentren en bobinas.",
+          "un": [
+            "0065",
+            "0289"
+          ]
+        }
       ]
     }
   ],
@@ -324,12 +334,14 @@
       "texto": "No se requieren Embalajes Intermedios."
     },
     {
-      "texto": "Condiciones particulares de embalaje o excepciones:"
-    },
-    {
-      "texto": "Si los extremos del UN 0105 están sellados, no se requieren embalajes interiores.",
-      "un": [
-        "0105"
+      "texto": "Condiciones particulares de embalaje o excepciones:",
+      "items": [
+        {
+          "texto": "Si los extremos del UN 0105 están sellados, no se requieren embalajes interiores.",
+          "un": [
+            "0105"
+          ]
+        }
       ]
     }
   ],
@@ -378,15 +390,17 @@
       "texto": "No se requieren Embalajes Intermedios."
     },
     {
-      "texto": "Condiciones particulares de embalaje o excepciones:"
-    },
-    {
-      "texto": "Para los números UN 0271 , 0272 , 0415 , 0491 , cuando se utilicen embalajes metálicos, éstos deben ser construidos de tal forma que se prevenga el riesgo de una explosión debida al aumento de la presión interior provocada por causas internas o externas.",
-      "un": [
-        "0271",
-        "0272",
-        "0415",
-        "0491"
+      "texto": "Condiciones particulares de embalaje o excepciones:",
+      "items": [
+        {
+          "texto": "Para los números UN 0271 , 0272 , 0415 , 0491 , cuando se utilicen embalajes metálicos, éstos deben ser construidos de tal forma que se prevenga el riesgo de una explosión debida al aumento de la presión interior provocada por causas internas o externas.",
+          "un": [
+            "0271",
+            "0272",
+            "0415",
+            "0491"
+          ]
+        }
       ]
     },
     {
@@ -454,10 +468,7 @@
         "(e) No se utiliza.",
         "(f) Los cilindros deben ser llenados hasta una presión de trabajo que no exceda de 5 bar.",
         "(g) No se utiliza.",
-        "(h) En ningún caso deben excederse los rangos de presión de trabajo o de llenado mostrados en la tabla.",
-        "(k) El intervalo entre las pruebas periódicas puede ser extendido a 10 años para los cilindros de aleaciones de aluminio cuando la aleación ha sido sometida a las pruebas de fatiga y corrosión como se especifica en la ISO 7866:2012 + Cor 1:2014",
-        "(l) El intervalo entre las pruebas periódicas puede ser extendido a 15 años para los cilindros de acero si es aprobado por la autoridad nacional apropiada del país de uso.",
-        "(m) Los materiales de construcción de los cilindros y sus accesorios deben ser compatibles con el contenido y no deben reaccionar para formar con el contenido compuestos dañinos o peligrosos. La prueba de presión y el rango de llenado deben ser calculados de acuerdo con los requisitos pertinentes de 5.2.0.6. Deben darse los pasos necesarios para prevenir las reacciones peligrosas (i.e. polimerización o descomposición) durante el transporte. Si fuera necesario, podrían requerirse la estabilización o la adición de un inhibidor."
+        "(h) En ningún caso deben excederse los rangos de presión de trabajo o de llenado mostrados en la tabla."
       ],
       "un": [
         "1001",
@@ -476,6 +487,20 @@
       "texto": "(j) El UN 1037 puede ser transportado en ampollas de vidrio, selladas en forma segura, que no contengan más de 5 g de cloruro de etilo y llenadas con una merma de no menos del 7,5% a 21 °C. Las ampollas deben ser almohadilladas con un material eficiente, no combustible, y en cartones con compartimientos, al punto de que, en un cartón, no se embalen más de 12 ampollas por cartón. Los cartones deben ser embalados en forma muy ajustada de manera de prevenir los movimientos, en cajas de madera (4C1, 4C2), cajas de madera contrachapada (4D), cajas de madera reconstituida (4F), cajas de cartón (4G) o cajas de plástico (4H1, 4H2) que cumplan con las normas de idoneidad 6.3 a nivel del Grupo de Embalaje II. No más de 300 g de cloruro de etilo están permitidos por bulto.",
       "un": [
         "1037"
+      ]
+    },
+    {
+      "texto": [
+        "Inspecciones periódicas",
+        "(k) El intervalo entre las pruebas periódicas puede ser extendido a 10 años para los cilindros de aleaciones de aluminio cuando la aleación ha sido sometida a las pruebas de fatiga y corrosión como se especifica en la ISO 7866:2012 + Cor 1:2014",
+        "(l) El intervalo entre las pruebas periódicas puede ser extendido a 15 años para los cilindros de acero si es aprobado por la autoridad nacional apropiada del país de uso.",
+        "Requisitos para las descripciones y mezclas n.e.p.",
+        "(m) Los materiales de construcción de los cilindros y sus accesorios deben ser compatibles con el contenido y no deben reaccionar para formar con el contenido compuestos dañinos o peligrosos. La prueba de presión y el rango de llenado deben ser calculados de acuerdo con los requisitos pertinentes de 5.2.0.6. Deben darse los pasos necesarios para prevenir las reacciones peligrosas (i.e. polimerización o descomposición) durante el transporte. Si fuera necesario, podrían requerirse la estabilización o la adición de un inhibidor."
+      ],
+      "un": [
+        "1001",
+        "1037",
+        "3374"
       ]
     }
   ],
@@ -524,10 +549,8 @@
       ]
     },
     {
-      "texto": "Requisitos para los recipientes criogénicos abiertos"
-    },
-    {
       "texto": [
+        "Requisitos para los recipientes criogénicos abiertos",
         "Los recipientes criogénicos abiertos deben construirse de tal manera que se cumplan las siguientes condiciones: Nota: Los embalajes aislados que contengan nitrógeno líquido refrigerado absorbido completamente por un material poroso no están sujetos a esta Reglamentación si se transportan como mercancía, siempre que cumplan los requisitos de la Disposición especial A152.",
         "(a) Los recipientes se deben diseñar, construir, fabricar, probar y equipar de tal manera que puedan resistir todas las condiciones, incluyendo la fatiga, a las que estarán sometidos durante su uso común y durante las condiciones normales de transporte;",
         "(b) La capacidad máxima de agua para los recipientes de metal es de 50 L y para los recipientes de vidrio de 5 L;",
@@ -820,18 +843,32 @@
       ]
     },
     {
-      "texto": [
-        "Requisitos de embalaje adicionales",
-        "(a) los cilindros deben llenarse de modo que a 50°C la fase no gaseosa no supere el 95% de su capacidad de agua y no se llene completamente a 60°C. Al llenarse, la presión interna a 65°C no debe exceder la presión de prueba de los cilindros. Deben tenerse en cuenta las presiones del vapor y la expansión volumétrica de todas las sustancias en los cilindros;",
-        "(b) la presión de prueba mínima para el propulsante debe cumplir la Instrucción de Embalaje 200 pero no ser inferior a 20 bares;",
-        "(c) los cilindros no rellenables podrán tener una capacidad máxima de agua de 1 000 L dividida entre la presión de prueba expresada en bares, siempre que las restricciones de presión y de capacidad de la norma de fabricación cumplan la cláusula 1 de ISO 11118:2015 + Amd. 1:2019, que limita la capacidad máxima a 50 L;",
-        "(d) en el caso de los líquidos cargados con un gas comprimido, deben tomarse en consideración ambos componentes — el líquido y el gas comprimido — al calcular la presión interna del recipiente a presión. Cuando no se disponga de datos experimentales, deben llevarse a cabo las siguientes operaciones: 1. cálculo de la presión de vapor del líquido y de la presión parcial del gas comprimido a 15ºC (temperatura de llenado); 2. cálculo de la expansión volumétrica de la fase líquida resultante del calentamiento de 15ºC a 65ºC, y cálculo del volumen restante para la fase gaseosa; 3. cálculo de la presión parcial del gas comprimido a 65ºC teniendo en cuenta la expansión volumétrica de la fase líquida; Nota: Debe tomarse en consideración el factor de compresibilidad del gas comprimido a 15ºC y 65ºC. 4. cálculo de la presión de vapor del líquido a 65°C; 5. la presión total debe ser la suma de la presión de vapor del líquido y la presión parcial del gas comprimido a 65°C; 6. consideración de la solubilidad del gas comprimido a 65ºC en la fase líquida. La presión de ensayo de los cilindros no debe ser inferior a la presión total calculada menos 100 kPa (1 bar). Si no se conoce la solubilidad del gas comprimido en la fase líquida para este cálculo, la presión de ensayo puede calcularse sin tener en cuenta la solubilidad del gas (subpárrafo 6).",
-        "(e) Para los agentes extintores asignados a UN 3500, el período de prueba máximo para la inspección periódica es de 10 años;",
-        "(f) los cilindros no deben ofrecerse para el transporte si están conectados a un equipo de aplicación de spray tal como manguera y tubo;",
-        "(g) los cilindros deben ir embalados en embalajes exteriores resistentes."
-      ],
-      "un": [
-        "3500"
+      "texto": "Requisitos de embalaje adicionales",
+      "items": [
+        {
+          "texto": "(a) los cilindros deben llenarse de modo que a 50°C la fase no gaseosa no supere el 95% de su capacidad de agua y no se llene completamente a 60°C. Al llenarse, la presión interna a 65°C no debe exceder la presión de prueba de los cilindros. Deben tenerse en cuenta las presiones del vapor y la expansión volumétrica de todas las sustancias en los cilindros;"
+        },
+        {
+          "texto": "(b) la presión de prueba mínima para el propulsante debe cumplir la Instrucción de Embalaje 200 pero no ser inferior a 20 bares;"
+        },
+        {
+          "texto": "(c) los cilindros no rellenables podrán tener una capacidad máxima de agua de 1 000 L dividida entre la presión de prueba expresada en bares, siempre que las restricciones de presión y de capacidad de la norma de fabricación cumplan la cláusula 1 de ISO 11118:2015 + Amd. 1:2019, que limita la capacidad máxima a 50 L;"
+        },
+        {
+          "texto": "(d) en el caso de los líquidos cargados con un gas comprimido, deben tomarse en consideración ambos componentes — el líquido y el gas comprimido — al calcular la presión interna del recipiente a presión. Cuando no se disponga de datos experimentales, deben llevarse a cabo las siguientes operaciones: 1. cálculo de la presión de vapor del líquido y de la presión parcial del gas comprimido a 15ºC (temperatura de llenado); 2. cálculo de la expansión volumétrica de la fase líquida resultante del calentamiento de 15ºC a 65ºC, y cálculo del volumen restante para la fase gaseosa; 3. cálculo de la presión parcial del gas comprimido a 65ºC teniendo en cuenta la expansión volumétrica de la fase líquida; Nota: Debe tomarse en consideración el factor de compresibilidad del gas comprimido a 15ºC y 65ºC. 4. cálculo de la presión de vapor del líquido a 65°C; 5. la presión total debe ser la suma de la presión de vapor del líquido y la presión parcial del gas comprimido a 65°C; 6. consideración de la solubilidad del gas comprimido a 65ºC en la fase líquida. La presión de ensayo de los cilindros no debe ser inferior a la presión total calculada menos 100 kPa (1 bar). Si no se conoce la solubilidad del gas comprimido en la fase líquida para este cálculo, la presión de ensayo puede calcularse sin tener en cuenta la solubilidad del gas (subpárrafo 6)."
+        },
+        {
+          "texto": "(e) Para los agentes extintores asignados a UN 3500, el período de prueba máximo para la inspección periódica es de 10 años;",
+          "un": [
+            "3500"
+          ]
+        },
+        {
+          "texto": "(f) los cilindros no deben ofrecerse para el transporte si están conectados a un equipo de aplicación de spray tal como manguera y tubo;"
+        },
+        {
+          "texto": "(g) los cilindros deben ir embalados en embalajes exteriores resistentes."
+        }
       ]
     }
   ],
@@ -1150,13 +1187,17 @@
       ]
     },
     {
-      "texto": [
-        "Requisitos de embalaje adicionales",
-        "•los embalajes interiores deben contar con el suficiente material absorbente para absorber todo el contenido de los embalajes interiores y colocarse en un recipiente impermeable rígido antes de embalarlo en embalajes exteriores.",
-        "•Para el UN 1308, Circonio en suspensión en un líquido inflamable, solamente se permiten los embalajes combinados. El peso bruto del bulto completo no debe ser superior a 75 kg."
-      ],
-      "un": [
-        "1308"
+      "texto": "Requisitos de embalaje adicionales",
+      "items": [
+        {
+          "texto": "•los embalajes interiores deben contar con el suficiente material absorbente para absorber todo el contenido de los embalajes interiores y colocarse en un recipiente impermeable rígido antes de embalarlo en embalajes exteriores."
+        },
+        {
+          "texto": "•Para el UN 1308, Circonio en suspensión en un líquido inflamable, solamente se permiten los embalajes combinados. El peso bruto del bulto completo no debe ser superior a 75 kg.",
+          "un": [
+            "1308"
+          ]
+        }
       ]
     },
     {
@@ -1231,12 +1272,14 @@
       ]
     },
     {
-      "texto": [
-        "Requisitos de embalaje adicionales",
-        "• UN 1308, Circonio en suspensión en un líquido inflamable, solamente se permiten los embalajes combinados. El peso bruto del bulto completo no debe ser superior a 75 kg."
-      ],
-      "un": [
-        "1308"
+      "texto": "Requisitos de embalaje adicionales",
+      "items": [
+        {
+          "texto": "• UN 1308, Circonio en suspensión en un líquido inflamable, solamente se permiten los embalajes combinados. El peso bruto del bulto completo no debe ser superior a 75 kg.",
+          "un": [
+            "1308"
+          ]
+        }
       ]
     },
     {
@@ -1356,13 +1399,17 @@
       ]
     },
     {
-      "texto": [
-        "Requisitos de embalaje adicionales",
-        "•los embalajes interiores que contengan líquidos deben rodearse con la suficiente cantidad de material acolchado absorbente para absorber la totalidad de contenido líquido;",
-        "•la solución de nitroglicerina, UN 3064, debe embalarse en cajas de madera (4C1, 4C2, 4D o 4F) como embalaje exterior y debe estar forrada de un material adecuado impermeable al agua, el alcohol y la nitroglicerina."
-      ],
-      "un": [
-        "3064"
+      "texto": "Requisitos de embalaje adicionales",
+      "items": [
+        {
+          "texto": "•los embalajes interiores que contengan líquidos deben rodearse con la suficiente cantidad de material acolchado absorbente para absorber la totalidad de contenido líquido;"
+        },
+        {
+          "texto": "•la solución de nitroglicerina, UN 3064, debe embalarse en cajas de madera (4C1, 4C2, 4D o 4F) como embalaje exterior y debe estar forrada de un material adecuado impermeable al agua, el alcohol y la nitroglicerina.",
+          "un": [
+            "3064"
+          ]
+        }
       ]
     },
     {
@@ -1608,12 +1655,14 @@
       ]
     },
     {
-      "texto": [
-        "☞ Additional IATA requirements. Requisitos de embalaje adicionales",
-        "•para UN 3175, si el embalaje exterior no es a prueba de fugas, se debe proporcionar un forro a prueba de fugas u otros medios igualmente efectivos de contención intermedia."
-      ],
-      "un": [
-        "3175"
+      "texto": "☞ Additional IATA requirements. Requisitos de embalaje adicionales",
+      "items": [
+        {
+          "texto": "•para UN 3175, si el embalaje exterior no es a prueba de fugas, se debe proporcionar un forro a prueba de fugas u otros medios igualmente efectivos de contención intermedia.",
+          "un": [
+            "3175"
+          ]
+        }
       ]
     },
     {
@@ -1671,13 +1720,17 @@
       ]
     },
     {
-      "texto": [
-        "Requisitos de embalaje adicionales",
-        "☞ Additional IATA requirements. •para UN 3175, si el embalaje exterior no es a prueba de fugas, se debe proporcionar un forro a prueba de fugas u otros medios igualmente efectivos de contención intermedia;",
-        "•los embalajes únicos de fibra, cartón pren­sado, madera y madera contrachapada deben fijarse con un forro adecuado."
-      ],
-      "un": [
-        "3175"
+      "texto": "Requisitos de embalaje adicionales",
+      "items": [
+        {
+          "texto": "☞ Additional IATA requirements. •para UN 3175, si el embalaje exterior no es a prueba de fugas, se debe proporcionar un forro a prueba de fugas u otros medios igualmente efectivos de contención intermedia;",
+          "un": [
+            "3175"
+          ]
+        },
+        {
+          "texto": "•los embalajes únicos de fibra, cartón pren­sado, madera y madera contrachapada deben fijarse con un forro adecuado."
+        }
       ]
     },
     {
@@ -1771,16 +1824,26 @@
       ]
     },
     {
-      "texto": [
-        "Requisitos de embalaje adicionales",
-        "•los embalajes deben diseñarse y fabricarse de manera que se evite la pérdida de contenido de agua o alcohol, o el contenido de flemador;",
-        "•los embalajes deben fabricarse y cerrarse de tal modo que se evite que un explosivo esté sometido a presión o que se produzca un aumento de presión de más de 300 kPa (3 bar);",
-        "•el tipo de embalaje y la cantidad máxima permitida por embalaje están limitados por las disposiciones de la subsección 3.1.7 y pueden ser inferiores a los límites mostrados anteriormente;",
-        "•los embalajes interiores de plástico o vidrio deben estar embalados en recipientes de metal o plástico rígido bien cerrados antes de embalarlos en embalajes exteriores. Los embalajes interiores deben estar embalados con suficiente cantidad de material absorbente como para absorber el contenido en caso de fuga.",
-        "• UN 3474. No deben utilizarse embalajes de metal. Los embalajes de otros materiales que contengan una pequeña cantidad de metal, por ejemplo cierres metálicos u otros accesorios metálicos como los que se mencionan en 6.2, no se consideran embalajes de metal."
-      ],
-      "un": [
-        "3474"
+      "texto": "Requisitos de embalaje adicionales",
+      "items": [
+        {
+          "texto": "•los embalajes deben diseñarse y fabricarse de manera que se evite la pérdida de contenido de agua o alcohol, o el contenido de flemador;"
+        },
+        {
+          "texto": "•los embalajes deben fabricarse y cerrarse de tal modo que se evite que un explosivo esté sometido a presión o que se produzca un aumento de presión de más de 300 kPa (3 bar);"
+        },
+        {
+          "texto": "•el tipo de embalaje y la cantidad máxima permitida por embalaje están limitados por las disposiciones de la subsección 3.1.7 y pueden ser inferiores a los límites mostrados anteriormente;"
+        },
+        {
+          "texto": "•los embalajes interiores de plástico o vidrio deben estar embalados en recipientes de metal o plástico rígido bien cerrados antes de embalarlos en embalajes exteriores. Los embalajes interiores deben estar embalados con suficiente cantidad de material absorbente como para absorber el contenido en caso de fuga."
+        },
+        {
+          "texto": "• UN 3474. No deben utilizarse embalajes de metal. Los embalajes de otros materiales que contengan una pequeña cantidad de metal, por ejemplo cierres metálicos u otros accesorios metálicos como los que se mencionan en 6.2, no se consideran embalajes de metal.",
+          "un": [
+            "3474"
+          ]
+        }
       ]
     },
     {
@@ -2024,20 +2087,28 @@
     },
     {
       "texto": "Para UN 3223 y UN 3224",
-      "un": [
-        "3223",
-        "3224"
-      ]
-    },
-    {
-      "texto": [
-        "Las muestras energéticas clasificadas de conformidad con 3.11.4 pueden transportarse con los números UN 3223 u UN 3224 , según proceda, siempre que:",
-        "(a) la cantidad máxima en cada una de las cavidades interiores no exceda de 0,01 g en el caso de sólidos o 0,01 ml en el caso de líquidos y la cantidad máxima neta por embalaje exterior sea de 20 g en el caso de sólidos o 20 ml en el caso de líquidos. En el caso de embalajes mixtos, la suma de la masa en gramos y del volumen en ml no exceda de 20: 1. las muestras se transporten en placas de microtitulación hechas de plástico, vidrio, porcelana o gres como embalaje interior; 2. sólo se utilice un embalaje combinado en que el embalaje exterior esté compuesto por cajas (4A, 4B, 4N, 4C1, 4C2, 4D, 4F, 4G, 4H1 y 4H2); o",
-        "(b) la cantidad máxima en cada uno de los embalajes interiores no exceda de 1 g en el caso de sólidos o 1 ml en el caso de líquidos y la cantidad máxima neta por embalaje exterior es de 56 g en el caso de sólidos y 56 ml para las sustancias líquidas. En el caso de embalajes mixtos, la suma de la masa en gramos y del volumen en m no debe exceder de 56: 1. la sustancia individual se encuentre en un embalaje interior de vidrio o de plástico de una capacidad máxima de 30 ml colocado en una matriz de espuma expansible de polietileno de al menos 130 mm de espesor con una densidad de 18 ± 1 g/L; 2. dentro de la matriz de espuma, los embalajes interiores estén separados unos de otros por una distancia mínima de 40 mm y de la pared del embalaje exterior por una distancia mínima de 70 mm. El bulto puede contener hasta dos capas de matrices de espuma con 28 embalajes interiores cada una; 3. los embalajes exteriores consistan únicamente en cartón corrugado del tipo 4G con unas dimensiones mínimas de 60 cm (longitud) por 40,5 cm (anchura) por 30 cm (altura) y un espesor mínimo de la pared de 1,3 cm."
-      ],
-      "un": [
-        "3223",
-        "3224"
+      "items": [
+        {
+          "texto": "Las muestras energéticas clasificadas de conformidad con 3.11.4 pueden transportarse con los números UN 3223 u UN 3224 , según proceda, siempre que:",
+          "un": [
+            "3223",
+            "3224"
+          ]
+        },
+        {
+          "texto": "(a) la cantidad máxima en cada una de las cavidades interiores no exceda de 0,01 g en el caso de sólidos o 0,01 ml en el caso de líquidos y la cantidad máxima neta por embalaje exterior sea de 20 g en el caso de sólidos o 20 ml en el caso de líquidos. En el caso de embalajes mixtos, la suma de la masa en gramos y del volumen en ml no exceda de 20: 1. las muestras se transporten en placas de microtitulación hechas de plástico, vidrio, porcelana o gres como embalaje interior; 2. sólo se utilice un embalaje combinado en que el embalaje exterior esté compuesto por cajas (4A, 4B, 4N, 4C1, 4C2, 4D, 4F, 4G, 4H1 y 4H2); o",
+          "un": [
+            "3223",
+            "3224"
+          ]
+        },
+        {
+          "texto": "(b) la cantidad máxima en cada uno de los embalajes interiores no exceda de 1 g en el caso de sólidos o 1 ml en el caso de líquidos y la cantidad máxima neta por embalaje exterior es de 56 g en el caso de sólidos y 56 ml para las sustancias líquidas. En el caso de embalajes mixtos, la suma de la masa en gramos y del volumen en m no debe exceder de 56: 1. la sustancia individual se encuentre en un embalaje interior de vidrio o de plástico de una capacidad máxima de 30 ml colocado en una matriz de espuma expansible de polietileno de al menos 130 mm de espesor con una densidad de 18 ± 1 g/L; 2. dentro de la matriz de espuma, los embalajes interiores estén separados unos de otros por una distancia mínima de 40 mm y de la pared del embalaje exterior por una distancia mínima de 70 mm. El bulto puede contener hasta dos capas de matrices de espuma con 28 embalajes interiores cada una; 3. los embalajes exteriores consistan únicamente en cartón corrugado del tipo 4G con unas dimensiones mínimas de 60 cm (longitud) por 40,5 cm (anchura) por 30 cm (altura) y un espesor mínimo de la pared de 1,3 cm.",
+          "un": [
+            "3223",
+            "3224"
+          ]
+        }
       ]
     },
     {
@@ -2372,12 +2443,14 @@
       ]
     },
     {
-      "texto": [
-        "Requisitos de embalaje adicionales",
-        "•los embalajes de UN 2881 en el grupo de embalaje III deben cumplir las normas de idoneidad del grupo de embalaje II."
-      ],
-      "un": [
-        "2881"
+      "texto": "Requisitos de embalaje adicionales",
+      "items": [
+        {
+          "texto": "•los embalajes de UN 2881 en el grupo de embalaje III deben cumplir las normas de idoneidad del grupo de embalaje II.",
+          "un": [
+            "2881"
+          ]
+        }
       ]
     },
     {
@@ -3081,13 +3154,17 @@
       ]
     },
     {
-      "texto": [
-        "Requisitos de embalaje adicionales",
-        "•los embalajes interiores deben contar con el suficiente material absorbente para absorber todo el contenido de los embalajes interiores y colocarse en un recipiente impermeable rígido antes de embalarlo en embalajes exteriores;",
-        "• UN 1873 las partes de los embalajes que estén en contacto directo con ácido perclórico deben construirse de vidrio o de plástico."
-      ],
-      "un": [
-        "1873"
+      "texto": "Requisitos de embalaje adicionales",
+      "items": [
+        {
+          "texto": "•los embalajes interiores deben contar con el suficiente material absorbente para absorber todo el contenido de los embalajes interiores y colocarse en un recipiente impermeable rígido antes de embalarlo en embalajes exteriores;"
+        },
+        {
+          "texto": "• UN 1873 las partes de los embalajes que estén en contacto directo con ácido perclórico deben construirse de vidrio o de plástico.",
+          "un": [
+            "1873"
+          ]
+        }
       ]
     },
     {
@@ -4058,12 +4135,14 @@
       ]
     },
     {
-      "texto": [
-        "☞ Additional IATA requirements. Requisitos de embalaje adicionales",
-        "•para UN 3243, si el embalaje exterior no es a prueba de fugas, se debe proporcionar un forro a prueba de fugas u otros medios igualmente efectivos de contención intermedia."
-      ],
-      "un": [
-        "3243"
+      "texto": "☞ Additional IATA requirements. Requisitos de embalaje adicionales",
+      "items": [
+        {
+          "texto": "•para UN 3243, si el embalaje exterior no es a prueba de fugas, se debe proporcionar un forro a prueba de fugas u otros medios igualmente efectivos de contención intermedia.",
+          "un": [
+            "3243"
+          ]
+        }
       ]
     },
     {
@@ -4232,13 +4311,17 @@
       ]
     },
     {
-      "texto": [
-        "Requisitos de los cierres Requisitos de embalaje adicionales",
-        "•los cierres deben cumplir los requisitos de 5.0.2.7.",
-        "☞ Additional IATA requirements. •para UN 3243, si el embalaje exterior no es a prueba de fugas, se debe proporcionar un forro a prueba de fugas u otros medios igualmente efectivos de contención intermedia."
-      ],
-      "un": [
-        "3243"
+      "texto": "Requisitos de los cierres Requisitos de embalaje adicionales",
+      "items": [
+        {
+          "texto": "•los cierres deben cumplir los requisitos de 5.0.2.7."
+        },
+        {
+          "texto": "☞ Additional IATA requirements. •para UN 3243, si el embalaje exterior no es a prueba de fugas, se debe proporcionar un forro a prueba de fugas u otros medios igualmente efectivos de contención intermedia.",
+          "un": [
+            "3243"
+          ]
+        }
       ]
     },
     {
@@ -4605,12 +4688,14 @@
       ]
     },
     {
-      "texto": [
-        "☞ Additional IATA requirements. Requisitos de embalaje adicionales",
-        "•para UN 3244, si el embalaje exterior no es a prueba de fugas, se debe proporcionar un forro a prueba de fugas u otros medios igualmente efectivos de contención intermedia."
-      ],
-      "un": [
-        "3244"
+      "texto": "☞ Additional IATA requirements. Requisitos de embalaje adicionales",
+      "items": [
+        {
+          "texto": "•para UN 3244, si el embalaje exterior no es a prueba de fugas, se debe proporcionar un forro a prueba de fugas u otros medios igualmente efectivos de contención intermedia.",
+          "un": [
+            "3244"
+          ]
+        }
       ]
     },
     {
@@ -4701,14 +4786,20 @@
       ]
     },
     {
-      "texto": [
-        "Requisitos de embalaje adicionales",
-        "☞ Additional IATA requirements. •para UN 3244, si el embalaje exterior no es a prueba de fugas, se debe proporcionar un forro a prueba de fugas u otros medios igualmente efectivos de contención intermedia.",
-        "•los embalajes únicos de fibra, cartón pren­sado, madera y madera contrachapada deben fijarse con un forro adecuado.",
-        "•los embalajes únicos de fibra, cartón pren­sado, madera y madera contrachapada deben fijarse con un forro adecuado."
-      ],
-      "un": [
-        "3244"
+      "texto": "Requisitos de embalaje adicionales",
+      "items": [
+        {
+          "texto": "☞ Additional IATA requirements. •para UN 3244, si el embalaje exterior no es a prueba de fugas, se debe proporcionar un forro a prueba de fugas u otros medios igualmente efectivos de contención intermedia.",
+          "un": [
+            "3244"
+          ]
+        },
+        {
+          "texto": "•los embalajes únicos de fibra, cartón pren­sado, madera y madera contrachapada deben fijarse con un forro adecuado."
+        },
+        {
+          "texto": "•los embalajes únicos de fibra, cartón pren­sado, madera y madera contrachapada deben fijarse con un forro adecuado."
+        }
       ]
     },
     {
@@ -4913,14 +5004,18 @@
       ]
     },
     {
-      "texto": [
-        "Requisitos de embalaje adicionales",
-        "•los embalajes deben cumplir los estándares de rendimiento del grupo de embalaje II;",
-        "•para los acumuladores de electricidad embalados con líquido de batería en el mismo embalaje externo, ver UN 2796 y UN 2797."
-      ],
-      "un": [
-        "2796",
-        "2797"
+      "texto": "Requisitos de embalaje adicionales",
+      "items": [
+        {
+          "texto": "•los embalajes deben cumplir los estándares de rendimiento del grupo de embalaje II;"
+        },
+        {
+          "texto": "•para los acumuladores de electricidad embalados con líquido de batería en el mismo embalaje externo, ver UN 2796 y UN 2797.",
+          "un": [
+            "2796",
+            "2797"
+          ]
+        }
       ]
     }
   ],
@@ -5154,21 +5249,37 @@
       "texto": "Cuando se trate de equipo o vehículos que se pudieran manipular en una posición que no sea vertical, el equipo o vehículo debe sujetarse en un embalaje resistente, rígido, del tipo mostrado abajo. El equipo o vehículo debe sujetarse y restringirse de manera que lo mantenga dentro del embalaje exterior para evitar cualquier movimiento durante el transporte que pudiera cambiar la orientación o causar daños al vehículo. El equipo y los vehículos deben estar equipados con un medio eficaz de prevenir la activación accidental."
     },
     {
-      "texto": [
-        "Los vehículos o equipos accionados por baterías deben cumplir los siguientes requisitos: Baterías. Todas las baterías deben estar instaladas y bien sujetas en el soporte de la batería del vehículo o equipo y deben protegerse de manera que se eviten daños y cortocircuitos. Además: Otro equipo operacional: Nota: Las baterías o mercancías peligrosas de reemplazo permitidas como parte del equipo operacional no deben transportarse según esta instrucción de embalaje.",
-        "(a) si se instalan baterías derramables y el vehículo o equipo no puede transportarse de manera que las baterías permanezcan con la orientación para la que están diseñadas, deben quitarse y embalarse según la Instrucción de Embalaje 870;",
-        "(b) si las baterías de litio o ion sodio están instaladas: 1. las baterías identificadas como dañadas o defectuosas según la Disposición Especial A154 están prohibidas para el transporte; 2. las baterías de litio deben cumplir las disposiciones de 3.9.2.6.1 y las baterías de ion sodio deben cumplir las disposiciones del punto 3.9.2.7.1, excepto los prototipos de preproducción de pilas o baterías de litio o pilas o baterías de ion sodio cuando estos prototipos se transporten para pruebas, o para ciclos de producción bajos de celdas o baterías de litio o baterías de ion sodio que no hayan sido probadas según los requisitos de la Parte III, subsección 38.3, del Manual de Pruebas y Criterios de la ONU, y pueden transportarse a bordo de una aeronave de carga si lo aprueba la autoridad correspondiente del Estado de origen y el Estado del expedidor. Una copia del documento de aprobación debe acompañar el envío. 3. Cuando la batería se haya extraído del vehículo y es embalada por separado dentro del mismo embalaje exterior, el bulto debe ofrecerse para el transporte como UN 3481, Baterías de ion litio embaladas con equipo u UN 3091, Baterías de metal litio embaladas con equipo u UN 3552 Baterías de ion sodio instaladas en un equipo y embaladas de conformidad con la Instrucción de Embalaje 966, 969 o 977, según corresponda; △ Change to an item. 4. para UN 3556 - Vehículo propulsado por batería de ion litio, UN 3557 - Vehículo propulsado por batería de metal litio cuando la batería es recargable, y UN 3558 - Vehículo propulsado por batería de ion sodio: (i) Los vehículos propulsados por baterías con una capacidad de vatios-hora que excede los 100 Wh deben ofrecerse para el transporte con: –la(s) batería(s) en un estado de carga que no supere el 30% de su capacidad nominal; o –una capacidad indicada de la batería que no supere el 25%. (ii) Los vehículos propulsados por baterías con una capacidad de vatios-hora que no excede a 100 Wh deberían ofrecerse para el transporte con: –la(s) batería(s) en un estado de carga que no supere el 30% de su capacidad nominal; o –una capacidad indicada de la batería no superior al 25%. (iii) Los vehículos propulsados por baterías con una capacidad en vatios-hora superior a 100 Wh y con un estado de carga superior al 30% de su capacidad nominal o con una capacidad indicada de la batería superior al 25% sólo podrán ser transportados con la aprobación del Estado de origeny del Estado del operador en las condiciones escritas establecidas por dichas autoridades. Nota: En la subsección 38.3.2.3 del Manual de Pruebas y Criterios de las Naciones Unidas se ofrece orientación y metodología para determinar la capacidad nominal. Las baterías que se envían con un estado de carga reducido son menos propensas al escape térmico.",
-        "(c) si las baterías de sodio metálico o aleación de sodio están instaladas, deben ajustarse a los requisitos de la Disposición Especial A94.",
-        "(a) las mercancías peligrosas necesarias para el funcionamiento o la seguridad del vehículo o equipo, como extintores de incendios, latas para inflado de neumáticos o dispositivos de seguridad, deben instalarse de manera segura en el vehículo o equipo. Las aeronaves también pueden contener otros artículos y sustancias que de otro modo se clasificarían como mercancías peligrosas pero que se instalan en esa aeronave de conformidad con los requisitos de aeronavegabilidad y los reglamentos de operación pertinentes. Si los hay, las balsas salvavidas, los toboganes de escape de emergencia y otros dispositivos de inflado deben estar protegidos de modo que no puedan activarse accidentalmente. Los vehículos o el equipo que contengan mercancías peligrosas identificadas en la Subsección 4.2—Lista de Mercancías Peligrosas prohibidas en aeronaves de pasajeros solo pueden transportarse en aeronaves de carga;",
-        "(b) los vehículos equipados con dispositivos de protección contra robo, equipo de radiocomunicaciones instalado o sistemas de navegación deben tener dichos dispositivos, equipos o sistemas deshabilitados."
-      ],
-      "un": [
-        "3091",
-        "3481",
-        "3552",
-        "3556",
-        "3557",
-        "3558"
+      "texto": "Los vehículos o equipos accionados por baterías deben cumplir los siguientes requisitos:",
+      "items": [
+        {
+          "texto": "Baterías. Todas las baterías deben estar instaladas y bien sujetas en el soporte de la batería del vehículo o equipo y deben protegerse de manera que se eviten daños y cortocircuitos. Además:"
+        },
+        {
+          "texto": "(a) si se instalan baterías derramables y el vehículo o equipo no puede transportarse de manera que las baterías permanezcan con la orientación para la que están diseñadas, deben quitarse y embalarse según la Instrucción de Embalaje 870;"
+        },
+        {
+          "texto": "(b) si las baterías de litio o ion sodio están instaladas: 1. las baterías identificadas como dañadas o defectuosas según la Disposición Especial A154 están prohibidas para el transporte; 2. las baterías de litio deben cumplir las disposiciones de 3.9.2.6.1 y las baterías de ion sodio deben cumplir las disposiciones del punto 3.9.2.7.1, excepto los prototipos de preproducción de pilas o baterías de litio o pilas o baterías de ion sodio cuando estos prototipos se transporten para pruebas, o para ciclos de producción bajos de celdas o baterías de litio o baterías de ion sodio que no hayan sido probadas según los requisitos de la Parte III, subsección 38.3, del Manual de Pruebas y Criterios de la ONU, y pueden transportarse a bordo de una aeronave de carga si lo aprueba la autoridad correspondiente del Estado de origen y el Estado del expedidor. Una copia del documento de aprobación debe acompañar el envío. 3. Cuando la batería se haya extraído del vehículo y es embalada por separado dentro del mismo embalaje exterior, el bulto debe ofrecerse para el transporte como UN 3481, Baterías de ion litio embaladas con equipo u UN 3091, Baterías de metal litio embaladas con equipo u UN 3552 Baterías de ion sodio instaladas en un equipo y embaladas de conformidad con la Instrucción de Embalaje 966, 969 o 977, según corresponda; △ Change to an item. 4. para UN 3556 - Vehículo propulsado por batería de ion litio, UN 3557 - Vehículo propulsado por batería de metal litio cuando la batería es recargable, y UN 3558 - Vehículo propulsado por batería de ion sodio: (i) Los vehículos propulsados por baterías con una capacidad de vatios-hora que excede los 100 Wh deben ofrecerse para el transporte con: –la(s) batería(s) en un estado de carga que no supere el 30% de su capacidad nominal; o –una capacidad indicada de la batería que no supere el 25%. (ii) Los vehículos propulsados por baterías con una capacidad de vatios-hora que no excede a 100 Wh deberían ofrecerse para el transporte con: –la(s) batería(s) en un estado de carga que no supere el 30% de su capacidad nominal; o –una capacidad indicada de la batería no superior al 25%. (iii) Los vehículos propulsados por baterías con una capacidad en vatios-hora superior a 100 Wh y con un estado de carga superior al 30% de su capacidad nominal o con una capacidad indicada de la batería superior al 25% sólo podrán ser transportados con la aprobación del Estado de origeny del Estado del operador en las condiciones escritas establecidas por dichas autoridades. Nota: En la subsección 38.3.2.3 del Manual de Pruebas y Criterios de las Naciones Unidas se ofrece orientación y metodología para determinar la capacidad nominal. Las baterías que se envían con un estado de carga reducido son menos propensas al escape térmico.",
+          "un": [
+            "3091",
+            "3481",
+            "3552",
+            "3556",
+            "3557",
+            "3558"
+          ]
+        },
+        {
+          "texto": "(c) si las baterías de sodio metálico o aleación de sodio están instaladas, deben ajustarse a los requisitos de la Disposición Especial A94."
+        },
+        {
+          "texto": "Otro equipo operacional: Nota: Las baterías o mercancías peligrosas de reemplazo permitidas como parte del equipo operacional no deben transportarse según esta instrucción de embalaje."
+        },
+        {
+          "texto": "(a) las mercancías peligrosas necesarias para el funcionamiento o la seguridad del vehículo o equipo, como extintores de incendios, latas para inflado de neumáticos o dispositivos de seguridad, deben instalarse de manera segura en el vehículo o equipo. Las aeronaves también pueden contener otros artículos y sustancias que de otro modo se clasificarían como mercancías peligrosas pero que se instalan en esa aeronave de conformidad con los requisitos de aeronavegabilidad y los reglamentos de operación pertinentes. Si los hay, las balsas salvavidas, los toboganes de escape de emergencia y otros dispositivos de inflado deben estar protegidos de modo que no puedan activarse accidentalmente. Los vehículos o el equipo que contengan mercancías peligrosas identificadas en la Subsección 4.2—Lista de Mercancías Peligrosas prohibidas en aeronaves de pasajeros solo pueden transportarse en aeronaves de carga;"
+        },
+        {
+          "texto": "(b) los vehículos equipados con dispositivos de protección contra robo, equipo de radiocomunicaciones instalado o sistemas de navegación deben tener dichos dispositivos, equipos o sistemas deshabilitados."
+        }
       ]
     }
   ],
@@ -5209,40 +5320,62 @@
       "texto": "Requisitos de embalaje adicionales"
     },
     {
-      "texto": [
-        "En bultos :",
-        "(a) deben ser embalajes diseñados y fabricados para permitir que se libere el dióxido de carbono y para evitar un aumento de la presión que pudiese romper el embalaje;",
-        "(b) el expedidor debe llegar a un acuerdo con el operador para cada envío, con el fin de garantizar que se siguen los procedimientos de ventilación de seguridad;",
-        "(c) los requisitos de la Declaración del expedidor de las subsecciones 8.1 y 10.8.1 sólo aplican cuando el dióxido de carbono sólido (hielo seco) se utiliza como refrigerante para mercancías peligrosas que requieren una Declaración del expedidor, o cuando el dióxido de carbono sólido (hielo seco) se utiliza como refrigerante para sustancias o artículos no sujetos a esta Reglamentación se describen en una Declaración del expedidor;",
-        "(d) cuando no se requiere o utiliza una Declaración del expedidor, la siguiente información, tal como requiere la Subsección 8.2.3 para el dióxido de carbono sólido (hielo seco), se debe incluir en la casilla “Naturaleza y cantidad de mercancías” (Nature and Quantity of Goods) de la guía aérea cuando ésta se utilice, o en algún otro lugar de la documentación alternativa para el transporte. Cuando exista un acuerdo con el operador, el expedidor puede proporcionar la información mediante técnicas EDP o EDI. La información debería mostrarse en el orden siguiente: • UN 1845; •nombre apropiado del envío (Dry ice o Carbon dioxide, solid); •cantidad de bultos; y •peso neto del hielo seco en cada bulto.",
-        "(e) el peso neto del dióxido de carbono sólido (hielo seco) debe marcarse fuera de cada bulto.",
-        "☞ Additional IATA requirements. (f) Cuando los bultos se colocan en un sobrembalaje, el sobrembalaje debe marcarse en el exterior con la cantidad neta total de hielo seco en el sobrembalaje."
-      ],
-      "un": [
-        "1845"
+      "texto": "En bultos :",
+      "items": [
+        {
+          "texto": "(a) deben ser embalajes diseñados y fabricados para permitir que se libere el dióxido de carbono y para evitar un aumento de la presión que pudiese romper el embalaje;"
+        },
+        {
+          "texto": "(b) el expedidor debe llegar a un acuerdo con el operador para cada envío, con el fin de garantizar que se siguen los procedimientos de ventilación de seguridad;"
+        },
+        {
+          "texto": "(c) los requisitos de la Declaración del expedidor de las subsecciones 8.1 y 10.8.1 sólo aplican cuando el dióxido de carbono sólido (hielo seco) se utiliza como refrigerante para mercancías peligrosas que requieren una Declaración del expedidor, o cuando el dióxido de carbono sólido (hielo seco) se utiliza como refrigerante para sustancias o artículos no sujetos a esta Reglamentación se describen en una Declaración del expedidor;"
+        },
+        {
+          "texto": "(d) cuando no se requiere o utiliza una Declaración del expedidor, la siguiente información, tal como requiere la Subsección 8.2.3 para el dióxido de carbono sólido (hielo seco), se debe incluir en la casilla “Naturaleza y cantidad de mercancías” (Nature and Quantity of Goods) de la guía aérea cuando ésta se utilice, o en algún otro lugar de la documentación alternativa para el transporte. Cuando exista un acuerdo con el operador, el expedidor puede proporcionar la información mediante técnicas EDP o EDI. La información debería mostrarse en el orden siguiente: • UN 1845; •nombre apropiado del envío (Dry ice o Carbon dioxide, solid); •cantidad de bultos; y •peso neto del hielo seco en cada bulto.",
+          "un": [
+            "1845"
+          ]
+        },
+        {
+          "texto": "(e) el peso neto del dióxido de carbono sólido (hielo seco) debe marcarse fuera de cada bulto."
+        },
+        {
+          "texto": "☞ Additional IATA requirements."
+        },
+        {
+          "texto": "(f) Cuando los bultos se colocan en un sobrembalaje, el sobrembalaje debe marcarse en el exterior con la cantidad neta total de hielo seco en el sobrembalaje."
+        }
       ]
     },
     {
-      "texto": [
-        "El hielo seco en un dispositivo unitario de carga:",
-        "(a) puede enviarse en un dispositivo unitario de carga preparado por un mismo expedidor, siempre que el expedidor haya llegado a un acuerdo con el operador.",
-        "(c) el dispositivo unitario de carga debe permitir el venteo del gas de dióxido de carbono a fin de impedir una formación de presión que resulte peligrosa (los requisitos relativos a marcas de Sección 7 no se aplican a los dispositivos unitarios de carga);"
-      ],
-      "un": [
-        "1845",
-        "3373"
-      ]
-    },
-    {
-      "texto": "(b) el dispositivo unitario de carga no debe contener mercancías peligrosas, excepto UN 3373, Sustancias biológicas de Categoría B o ID 8000, Artículo de consumo. Si el dispositivo unitario de carga contiene UN 3373 o ID 8000, deben cumplirse las disposiciones de esta Reglamentación aplicables a dichas sustancias además de las disposiciones de esta instrucción de embalaje;",
-      "un": [
-        "3373"
-      ]
-    },
-    {
-      "texto": "(d) el expedidor debe proporcionar la siguiente información en la casilla “Nature and Quantity of Goods” de la guía aérea, cuando ésta se utiliza, o en una ubicación adecuada en algún documento de transporte alternativo. Donde exista un acuerdo con el operador, el expedidor puede proporcionar la información mediante técnicas EDP o EDI. La información debería mostrarse en el orden siguiente: • UN 1845; •nombre apropiado del envío (“Dry ice” o “Carbon dioxide, solid”) (Hielo seco o Dióxido de carbono, sólido); •cantidad de bultos y el peso neto de hielo seco en cada bulto si el ULD incluye bultos con hielo seco; o •el número de identificación del ULD y la cantidad neta de hielo seco en cada ULD si el hielo seco se coloca en el compartimento de hielo seco del ULD o suelto en el ULD.",
-      "un": [
-        "1845"
+      "texto": "El hielo seco en un dispositivo unitario de carga:",
+      "items": [
+        {
+          "texto": "(a) puede enviarse en un dispositivo unitario de carga preparado por un mismo expedidor, siempre que el expedidor haya llegado a un acuerdo con el operador.",
+          "un": [
+            "1845"
+          ]
+        },
+        {
+          "texto": "(b) el dispositivo unitario de carga no debe contener mercancías peligrosas, excepto UN 3373, Sustancias biológicas de Categoría B o ID 8000, Artículo de consumo. Si el dispositivo unitario de carga contiene UN 3373 o ID 8000, deben cumplirse las disposiciones de esta Reglamentación aplicables a dichas sustancias además de las disposiciones de esta instrucción de embalaje;",
+          "un": [
+            "1845",
+            "3373"
+          ]
+        },
+        {
+          "texto": "(c) el dispositivo unitario de carga debe permitir el venteo del gas de dióxido de carbono a fin de impedir una formación de presión que resulte peligrosa (los requisitos relativos a marcas de Sección 7 no se aplican a los dispositivos unitarios de carga);",
+          "un": [
+            "1845"
+          ]
+        },
+        {
+          "texto": "(d) el expedidor debe proporcionar la siguiente información en la casilla “Nature and Quantity of Goods” de la guía aérea, cuando ésta se utiliza, o en una ubicación adecuada en algún documento de transporte alternativo. Donde exista un acuerdo con el operador, el expedidor puede proporcionar la información mediante técnicas EDP o EDI. La información debería mostrarse en el orden siguiente: • UN 1845; •nombre apropiado del envío (“Dry ice” o “Carbon dioxide, solid”) (Hielo seco o Dióxido de carbono, sólido); •cantidad de bultos y el peso neto de hielo seco en cada bulto si el ULD incluye bultos con hielo seco; o •el número de identificación del ULD y la cantidad neta de hielo seco en cada ULD si el hielo seco se coloca en el compartimento de hielo seco del ULD o suelto en el ULD.",
+          "un": [
+            "1845"
+          ]
+        }
       ]
     },
     {
@@ -5316,14 +5449,20 @@
       ]
     },
     {
-      "texto": [
-        "Requisitos de embalaje adicionales",
-        "•los embalajes únicos de fibra, cartón pren­sado, madera y madera contrachapada deben fijarse con un forro adecuado;",
-        "•para el UN 3077, Sustancia nociva para el medio ambiente, sólida, n.e.p., independientemente de las cantidades netas máximas que se especifican en las Columnas J y L de la Tabla 4.2, los recipientes intermedios para graneles (RIG) con una cantidad neta máxima no superior a 1 000 kg se permiten como se muestra más abajo. Cada RIG debe ser acorde con los requisitos de la Subsección 6.8 y el Capítulo 6.5 de la Reglamentación Modelo de las Naciones Unidas y debe llevar la marca UN requerida;",
-        "•los RIG flexibles deben estar a prueba de tamizado y resistentes al agua o deben estar fijados con un forro no tamizante y resistente al agua."
-      ],
-      "un": [
-        "3077"
+      "texto": "Requisitos de embalaje adicionales",
+      "items": [
+        {
+          "texto": "•los embalajes únicos de fibra, cartón pren­sado, madera y madera contrachapada deben fijarse con un forro adecuado;"
+        },
+        {
+          "texto": "•para el UN 3077, Sustancia nociva para el medio ambiente, sólida, n.e.p., independientemente de las cantidades netas máximas que se especifican en las Columnas J y L de la Tabla 4.2, los recipientes intermedios para graneles (RIG) con una cantidad neta máxima no superior a 1 000 kg se permiten como se muestra más abajo. Cada RIG debe ser acorde con los requisitos de la Subsección 6.8 y el Capítulo 6.5 de la Reglamentación Modelo de las Naciones Unidas y debe llevar la marca UN requerida;",
+          "un": [
+            "3077"
+          ]
+        },
+        {
+          "texto": "•los RIG flexibles deben estar a prueba de tamizado y resistentes al agua o deben estar fijados con un forro no tamizante y resistente al agua."
+        }
       ]
     },
     {
@@ -5393,13 +5532,17 @@
       ]
     },
     {
-      "texto": [
-        "Embalajes únicos",
-        "•los embalajes únicos de cartón, madera y madera contrachapada deben tener un forro adecuado;",
-        "•para UN 2590, los sacos deben colocarse en sobrembalajes rígidos cerrados."
-      ],
-      "un": [
-        "2590"
+      "texto": "Embalajes únicos",
+      "items": [
+        {
+          "texto": "•los embalajes únicos de cartón, madera y madera contrachapada deben tener un forro adecuado;"
+        },
+        {
+          "texto": "•para UN 2590, los sacos deben colocarse en sobrembalajes rígidos cerrados.",
+          "un": [
+            "2590"
+          ]
+        }
       ]
     },
     {
@@ -5639,7 +5782,7 @@
       "texto": "Una batería de una sola pila, según se define en la Parte III, subsección 38.3.2.3 del Manual de pruebas y criterios de las Naciones Unidas, se considera una “pila” y debe transportarse según los requisitos para las “pilas” a efecto de esta instrucción de embalaje."
     },
     {
-      "texto": "https://www.iata.org/lithiumbatteries"
+      "texto": "Nota: Un documento de orientación para las baterías de litio está disponible en el siguiente enlace - https://www.iata.org/lithiumbatteries"
     },
     {
       "texto": "Requisitos generales"
@@ -5688,6 +5831,9 @@
   "966": [
     {
       "texto": "Introducción"
+    },
+    {
+      "texto": "Nota: Un documento de orientación para las baterías está disponible en el siguiente enlace - https://www.iata.org/lithiumbatteries"
     },
     {
       "texto": "Esta instrucción se aplica a las pilas y baterías de ion litio o de polímero de litio embaladas con el equipo ( UN 3481 ) en aviones de pasajeros, aviones de carga y aviones de carga solamente.",
@@ -5753,6 +5899,9 @@
   "967": [
     {
       "texto": "Introducción"
+    },
+    {
+      "texto": "Nota: Un documento de orientación para las baterías está disponible en el siguiente enlace - https://www.iata.org/lithiumbatteries"
     },
     {
       "texto": "Esta instrucción se aplica a las pilas y baterías de ion litio o de polímero de litio contenidas en un equipo ( UN 3481 ) en aviones de pasajeros, aviones de carga y aviones de carga solamente.",
@@ -5832,6 +5981,9 @@
       "texto": "Introducción"
     },
     {
+      "texto": "Nota: Un documento de orientación para las baterías está disponible en el siguiente enlace - https://www.iata.org/lithiumbatteries"
+    },
+    {
       "texto": "Esta instrucción se aplica a las pilas y baterías de metal litio o aleación de litio ( UN 3090 ) en aviones de carga solamente.",
       "un": [
         "3090"
@@ -5892,6 +6044,9 @@
   "969": [
     {
       "texto": "Introducción"
+    },
+    {
+      "texto": "Nota: Un documento de orientación para las baterías está disponible en el siguiente enlace - https://www.iata.org/lithiumbatteries"
     },
     {
       "texto": "Esta instrucción se aplica a las pilas y baterías de metal litio o de aleación de litio embaladas con el equipo ( UN 3091 ) en aviones de pasajeros y aviones de carga solamente.",
@@ -5964,6 +6119,9 @@
   "970": [
     {
       "texto": "Introducción"
+    },
+    {
+      "texto": "Nota: Un documento de orientación para las baterías está disponible en el siguiente enlace - https://www.iata.org/lithiumbatteries"
     },
     {
       "texto": "Esta instrucción se aplica a las pilas y baterías de metal litio o de aleación de litio contenidas en un equipo ( UN 3091 ) en aviones de pasajeros, aviones de carga y aviones de carga solamente.",
@@ -8036,25 +8194,53 @@
       "texto": "Otras mercancías peligrosas no clasificadas como ID 8000 no deben embalarse en el mismo embalaje exterior con ID 8000."
     },
     {
-      "texto": [
-        "Salvo que se disponga lo contrario a continuación, las mercancías peligrosas embaladas según esta instrucción de embalaje no necesitan cumplir lo estipulado en la Subsección 5.0 , excepto 5.0.1.5 o la Sección 6 de esta Reglamentación; sin embargo, deben cumplir los demás requisitos aplicables:",
-        "(a) cada embalaje debe estar diseñado y fabricado para evitar las fugas que pudiesen provocar los cambios de altura y temperatura durante el transporte aéreo;",
-        "(b) los embalajes interiores que puedan romperse (p. ej., los de loza, vidrio o los de plástico quebradizo) deben embalarse para evitar las roturas o fugas en las condiciones de transporte habituales;",
-        "(c) cada bulto que vaya a transportarse debe ser capaz de resistir una caída desde 1,2 m sobre hormigón sólido en la posición que con mayor probabilidad cause desperfectos. Los criterios que deben reunirse para superar la prueba son ambos, el embalaje exterior no debe presentar ningún daño que pudiera incidir sobre la seguridad durante el transporte y no debe haber fugas provenientes de los embalajes interiores. Cada bulto que vaya a transportarse debe ser capaz de soportar, sin roturas ni filtraciones de los embalajes interiores y sin una reducción efectiva de su efectividad, una fuerza aplicada a la superficie superior durante 24 horas, equivalente al peso total de bultos idénticos si se apilaran hasta una altura de 3 m (incluida la muestra de prueba);",
-        "(d) cuando se llenen los recipientes para líquidos, se deberá dejar una merma suficiente para asegurarse de que no se producirá ninguna filtración, ni ninguna deformación permanente del recipiente como el resultado de la expansión del líquido a causa de las temperaturas que probablemente prevalezcan durante el transporte. A menos que la normativa nacional o los acuerdos internacionales establezcan requisitos específicos, los líquidos no deben llenar el recipiente totalmente a una temperatura de 55°C. A esta temperatura debe dejarse una merma mínima del 2%. Los embalajes principales (que pueden incluir embalajes compuestos), en los que la retención de líquido es una función básica, deben poder suportar sin filtraciones una presión interna que produzca una presión diferencial igual o superior a 75 kPa (0,75 bar) o una presión relacionada con la presión del vapor del líquido que se va a transportar, sea cual sea su valor. La presión relativa a la presión del vapor debe determinarse por el método descrito en 5.0.2.9. Deben realizarse pruebas en los recipientes de muestra para demostrar la capacidad del embalaje principal para soportar la presión anterior;",
-        "(e) los tapones, corchos u otro tipo de cierres por fricción deben sujetarse bien en su sitio, con firmeza y de forma eficaz, utilizando métodos efectivos. Estos elementos de cierre deben estar concebidos de modo que sea realmente improbable que queden no queden correcta o totalmente cerrados, y deben hacerse de tal modo que sea fácil determinar que están completamente cerrados;",
-        "(f) los embalajes interiores deben estar bien embalados en embalajes exteriores resistentes y deben embalarse de forma segura y acolcharse para evitar roturas, perforaciones y filtraciones de los contenidos en los embalajes exteriores durante las condiciones normales de transporte. Debe proporcionarse suficiente cantidad de material absorbente para los embalajes interiores de vidrio o loza que contienen artículos de consumo de la Clase 3, o líquidos de la División 6.1, como para absorber el contenido líquido del embalaje interior más grande contenido en dicho embalaje exterior. El material absorbente de acolchado no debe reaccionar peligrosamente con el contenido de los embalajes interiores. Independientemente de lo anterior, no se requiere de material absorbente cuando los embalajes interiores están protegidos contra roturas de los mismos y si no se van a producir filtraciones del contenido desde el embalaje exterior durante las condiciones normales del transporte;",
-        "(g) los embalajes (incluidos los cierres) en contacto directo con las mercancías peligrosas deben ser resistentes a cualquier acción química o de otro tipo de dichas mercancías. Los materiales de los recipientes no contendrán sustancias que puedan reaccionar con el contenido, formar productos peligrosos, o contribuir a que dicho recipiente se debilite en forma significativa;",
-        "(h) las sustancias de la Clase 2 deben quedar más limitadas a productos en aerosol que contengan gas(es) comprimido o licuado no tóxico. Los aerosoles deben cumplir con los requisitos de 6.4.4. Las válvulas deben estar protegidas por una tapa u otro medio adecuado durante el transporte.",
-        "(i) excepto en el caso de los aerosoles, los embalajes interiores no deben superar: 1. para líquidos, 500 mL; y 2. para sólidos, 500 g.",
-        "(j) en la Declaración del expedidor de mercancías peligrosas debe indicarse el peso bruto del siguiente modo: 1. para un bulto, el peso bruto real del bulto; 2. para más de un bulto, el peso bruto real de cada bulto o el peso medio de los bultos. Por ejemplo, si hay 10 bultos y su peso bruto total es de 100 kg, la Declaración del expedidor para mercancías peligrosas debe indicar “peso bruto medio por bulto de 10 kgG”.",
-        "(k) los embalajes interiores que contienen mercancías peligrosas líquidas deben embalarse con sus cierres hacia arriba y la posición vertical del paquete debe estar indicado ya sea por las etiquetas de “Orientación del bulto” (Este lado hacia arriba) (ver Figuras 7.4.D y 7.4.E) o etiquetas de orientación del bulto preimpresas que cumplen las mismas especificaciones que la Figura 7.4.D o la Figura 7.4.E (ISO Norma 780:1997). Las flechas de orientación del bulto no se requieren en los embalajes exteriores de los embalajes combinados que contienen: •mercancías peligrosas en embalajes interiores cada uno conteniendo 120 mL o menos con suficiente material absorbente entre el embalaje interior y el embalaje exterior para absorber completamente el contenido líquido; o •mercancías peligrosas en embalajes interiores estancos al gas como tubos, bolsas o frascos que se abren al romperse o perforarse. Cada embalaje interior no debe contener más de 500 mL.",
-        "(l) un bulto terminado, preparado para su envío, no debe superar los 30 kg de peso bruto;",
-        "(m) los artículos de consumo deben enviarse, según estas disposiciones, en un dispositivo unitario de carga cuando lo prepare un mismo expedidor, siempre y cuando no contengan mercancías peligrosas aparte de UN 1845, dióxido de carbono sólido (hielo seco), utilizado como refrigerante. Cuando el dispositivo unitario de carga contiene hielo seco, se deben cumplir las disposiciones de esta Reglamentación que aplican al hielo seco, además de las disposiciones establecidas en esta instrucción de embalaje. El expedidor debe proporcionar al operador la documentación escrita en la que conste el número de bultos y el peso bruto total del número ID 8000 contenido en cada dispositivo unitario de carga.",
-        "(n) los bultos preparados según estas disposiciones deben ser duraderos y marcados de forma legible con la marca mostrada en la Figura 7.1.A."
-      ],
-      "un": [
-        "1845"
+      "texto": "Salvo que se disponga lo contrario a continuación, las mercancías peligrosas embaladas según esta instrucción de embalaje no necesitan cumplir lo estipulado en la Subsección 5.0 , excepto 5.0.1.5 o la Sección 6 de esta Reglamentación; sin embargo, deben cumplir los demás requisitos aplicables:",
+      "items": [
+        {
+          "texto": "(a) cada embalaje debe estar diseñado y fabricado para evitar las fugas que pudiesen provocar los cambios de altura y temperatura durante el transporte aéreo;"
+        },
+        {
+          "texto": "(b) los embalajes interiores que puedan romperse (p. ej., los de loza, vidrio o los de plástico quebradizo) deben embalarse para evitar las roturas o fugas en las condiciones de transporte habituales;"
+        },
+        {
+          "texto": "(c) cada bulto que vaya a transportarse debe ser capaz de resistir una caída desde 1,2 m sobre hormigón sólido en la posición que con mayor probabilidad cause desperfectos. Los criterios que deben reunirse para superar la prueba son ambos, el embalaje exterior no debe presentar ningún daño que pudiera incidir sobre la seguridad durante el transporte y no debe haber fugas provenientes de los embalajes interiores. Cada bulto que vaya a transportarse debe ser capaz de soportar, sin roturas ni filtraciones de los embalajes interiores y sin una reducción efectiva de su efectividad, una fuerza aplicada a la superficie superior durante 24 horas, equivalente al peso total de bultos idénticos si se apilaran hasta una altura de 3 m (incluida la muestra de prueba);"
+        },
+        {
+          "texto": "(d) cuando se llenen los recipientes para líquidos, se deberá dejar una merma suficiente para asegurarse de que no se producirá ninguna filtración, ni ninguna deformación permanente del recipiente como el resultado de la expansión del líquido a causa de las temperaturas que probablemente prevalezcan durante el transporte. A menos que la normativa nacional o los acuerdos internacionales establezcan requisitos específicos, los líquidos no deben llenar el recipiente totalmente a una temperatura de 55°C. A esta temperatura debe dejarse una merma mínima del 2%. Los embalajes principales (que pueden incluir embalajes compuestos), en los que la retención de líquido es una función básica, deben poder suportar sin filtraciones una presión interna que produzca una presión diferencial igual o superior a 75 kPa (0,75 bar) o una presión relacionada con la presión del vapor del líquido que se va a transportar, sea cual sea su valor. La presión relativa a la presión del vapor debe determinarse por el método descrito en 5.0.2.9. Deben realizarse pruebas en los recipientes de muestra para demostrar la capacidad del embalaje principal para soportar la presión anterior;"
+        },
+        {
+          "texto": "(e) los tapones, corchos u otro tipo de cierres por fricción deben sujetarse bien en su sitio, con firmeza y de forma eficaz, utilizando métodos efectivos. Estos elementos de cierre deben estar concebidos de modo que sea realmente improbable que queden no queden correcta o totalmente cerrados, y deben hacerse de tal modo que sea fácil determinar que están completamente cerrados;"
+        },
+        {
+          "texto": "(f) los embalajes interiores deben estar bien embalados en embalajes exteriores resistentes y deben embalarse de forma segura y acolcharse para evitar roturas, perforaciones y filtraciones de los contenidos en los embalajes exteriores durante las condiciones normales de transporte. Debe proporcionarse suficiente cantidad de material absorbente para los embalajes interiores de vidrio o loza que contienen artículos de consumo de la Clase 3, o líquidos de la División 6.1, como para absorber el contenido líquido del embalaje interior más grande contenido en dicho embalaje exterior. El material absorbente de acolchado no debe reaccionar peligrosamente con el contenido de los embalajes interiores. Independientemente de lo anterior, no se requiere de material absorbente cuando los embalajes interiores están protegidos contra roturas de los mismos y si no se van a producir filtraciones del contenido desde el embalaje exterior durante las condiciones normales del transporte;"
+        },
+        {
+          "texto": "(g) los embalajes (incluidos los cierres) en contacto directo con las mercancías peligrosas deben ser resistentes a cualquier acción química o de otro tipo de dichas mercancías. Los materiales de los recipientes no contendrán sustancias que puedan reaccionar con el contenido, formar productos peligrosos, o contribuir a que dicho recipiente se debilite en forma significativa;"
+        },
+        {
+          "texto": "(h) las sustancias de la Clase 2 deben quedar más limitadas a productos en aerosol que contengan gas(es) comprimido o licuado no tóxico. Los aerosoles deben cumplir con los requisitos de 6.4.4. Las válvulas deben estar protegidas por una tapa u otro medio adecuado durante el transporte."
+        },
+        {
+          "texto": "(i) excepto en el caso de los aerosoles, los embalajes interiores no deben superar: 1. para líquidos, 500 mL; y 2. para sólidos, 500 g."
+        },
+        {
+          "texto": "(j) en la Declaración del expedidor de mercancías peligrosas debe indicarse el peso bruto del siguiente modo: 1. para un bulto, el peso bruto real del bulto; 2. para más de un bulto, el peso bruto real de cada bulto o el peso medio de los bultos. Por ejemplo, si hay 10 bultos y su peso bruto total es de 100 kg, la Declaración del expedidor para mercancías peligrosas debe indicar “peso bruto medio por bulto de 10 kgG”."
+        },
+        {
+          "texto": "(k) los embalajes interiores que contienen mercancías peligrosas líquidas deben embalarse con sus cierres hacia arriba y la posición vertical del paquete debe estar indicado ya sea por las etiquetas de “Orientación del bulto” (Este lado hacia arriba) (ver Figuras 7.4.D y 7.4.E) o etiquetas de orientación del bulto preimpresas que cumplen las mismas especificaciones que la Figura 7.4.D o la Figura 7.4.E (ISO Norma 780:1997). Las flechas de orientación del bulto no se requieren en los embalajes exteriores de los embalajes combinados que contienen: •mercancías peligrosas en embalajes interiores cada uno conteniendo 120 mL o menos con suficiente material absorbente entre el embalaje interior y el embalaje exterior para absorber completamente el contenido líquido; o •mercancías peligrosas en embalajes interiores estancos al gas como tubos, bolsas o frascos que se abren al romperse o perforarse. Cada embalaje interior no debe contener más de 500 mL."
+        },
+        {
+          "texto": "(l) un bulto terminado, preparado para su envío, no debe superar los 30 kg de peso bruto;"
+        },
+        {
+          "texto": "(m) los artículos de consumo deben enviarse, según estas disposiciones, en un dispositivo unitario de carga cuando lo prepare un mismo expedidor, siempre y cuando no contengan mercancías peligrosas aparte de UN 1845, dióxido de carbono sólido (hielo seco), utilizado como refrigerante. Cuando el dispositivo unitario de carga contiene hielo seco, se deben cumplir las disposiciones de esta Reglamentación que aplican al hielo seco, además de las disposiciones establecidas en esta instrucción de embalaje. El expedidor debe proporcionar al operador la documentación escrita en la que conste el número de bultos y el peso bruto total del número ID 8000 contenido en cada dispositivo unitario de carga.",
+          "un": [
+            "1845"
+          ]
+        },
+        {
+          "texto": "(n) los bultos preparados según estas disposiciones deben ser duraderos y marcados de forma legible con la marca mostrada en la Figura 7.1.A."
+        }
       ]
     }
   ],
@@ -8119,10 +8305,10 @@
       "texto": "No se requieren Embalajes Intermedios."
     },
     {
-      "texto": "Condiciones particulares de embalaje o excepciones:"
-    },
-    {
-      "texto": "Donde no se requieran embalajes interiores, solamente bolsas plásticas están permitidas; si los extremos del artículo están sellados no se requerirán embalajes interiores."
+      "texto": [
+        "Condiciones particulares de embalaje o excepciones:",
+        "Donde no se requieran embalajes interiores, solamente bolsas plásticas están permitidas; si los extremos del artículo están sellados no se requerirán embalajes interiores."
+      ]
     }
   ]
 }

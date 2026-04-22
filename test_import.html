@@ -143,30 +143,110 @@ function getName(f) { return f.split('/').pop().replace('.html',''); }
 function escH(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
 // ─── ISSUES ──────────────────────────────────────────────
+// Modo estricto: reporta muchas clases de error de parseo/estructura.
+// No se reportan (válido): título faltante, filas sin datos, tabla con 0 filas.
+const BAD_STRINGS = new Set(['none','null','nan','undefined','—','-']);
+
 function analyzePI(codigo) {
   const e = tablaMap[codigo];
   if (!e) return ['SKIP: no existe en JSON'];
   const issues = [];
+
+  // ── Entry-level ──
+  if (e.codigo === undefined || e.codigo === null || e.codigo === '')
+    issues.push('codigo vacío/ausente');
+  if (!Array.isArray(e.tablas))
+    issues.push('tablas no es array');
+
   for (const [ti, t] of e.tablas.entries()) {
-    for (const col of t.encabezados) {
-      if (/_\d+$/.test(col) && !LEGIT_BASES.has(col.replace(/_\d+$/,'')))
-        issues.push(`T${ti} col duplicada: ${col}`);
-      if (/^col_\d+$/.test(col))
-        issues.push(`T${ti} header genérico: ${col}`);
+    const tag = `T${ti}`;
+    const headers = t.encabezados || [];
+
+    // ── Título ──
+    if (t.titulo !== null && t.titulo !== undefined) {
+      const tit = String(t.titulo);
+      if (BAD_STRINGS.has(tit.toLowerCase().trim()))
+        issues.push(`${tag} titulo "basura": ${tit}`);
+      if (tit !== tit.trim())
+        issues.push(`${tag} titulo con espacios al borde`);
+      if (/[\n\t]/.test(tit))
+        issues.push(`${tag} titulo con \\n o \\t`);
     }
-    if (!t.titulo || t.titulo === 'None') issues.push(`T${ti} titulo=None`);
-    if (t.encabezados.length >= 2) {
-      const dc = t.encabezados.slice(1);
-      let empty = 0;
-      for (const row of t.filas) { if (dc.every(c => !String(row[c]||'').trim())) empty++; }
-      if (empty) issues.push(`T${ti} ${empty} filas vacías`);
+
+    // ── Headers ──
+    const headerCount = {};
+    for (const col of headers) {
+      const c = String(col);
+      if (/_\d+$/.test(c) && !LEGIT_BASES.has(c.replace(/_\d+$/, '')))
+        issues.push(`${tag} col duplicada: ${c}`);
+      if (/^col_\d+$/.test(c))
+        issues.push(`${tag} header genérico: ${c}`);
+      if (c !== '' && c !== c.trim())
+        issues.push(`${tag} header con espacios al borde: "${c}"`);
+      if (/[\n\t]/.test(c))
+        issues.push(`${tag} header con \\n o \\t: "${c}"`);
+      if (c !== '' && BAD_STRINGS.has(c.toLowerCase().trim()))
+        issues.push(`${tag} header "basura": "${c}"`);
+      headerCount[c] = (headerCount[c] || 0) + 1;
     }
-    for (const row of t.filas) {
-      for (const v of Object.values(row)) {
-        if (v && String(v).includes('\n')) { issues.push(`T${ti} celda con \\n`); break; }
+    for (const [h, n] of Object.entries(headerCount)) {
+      if (n > 1 && h !== '')
+        issues.push(`${tag} header repetido ${n}×: "${h}"`);
+    }
+    const headersSet = new Set(headers);
+
+    // ── num_filas coherente ──
+    if (Array.isArray(t.filas) && t.num_filas !== undefined && t.num_filas !== t.filas.length)
+      issues.push(`${tag} num_filas=${t.num_filas} ≠ filas.length=${t.filas.length}`);
+
+    // ── Filas ──
+    const sawCellNL = { flag: false };
+    for (const [ri, row] of (t.filas || []).entries()) {
+      // Keys mismatch
+      const rowKeys = Object.keys(row);
+      for (const k of rowKeys) {
+        if (!headersSet.has(k))
+          issues.push(`${tag} fila ${ri} key huérfana: "${k}"`);
+      }
+      for (const h of headers) {
+        if (!(h in row))
+          issues.push(`${tag} fila ${ri} falta key: "${h}"`);
+      }
+
+      // Cell-level checks
+      for (const [k, v] of Object.entries(row)) {
+        if (v === null || v === undefined) continue;
+        const s = String(v);
+        if (!s) continue;
+        if (s.includes('\n') || s.includes('\r')) {
+          if (!sawCellNL.flag) { issues.push(`${tag} celda con \\n`); sawCellNL.flag = true; }
+        }
+        if (s.includes('\t'))
+          issues.push(`${tag} fila ${ri} celda con \\t en "${k}"`);
+        if (BAD_STRINGS.has(s.toLowerCase().trim()))
+          issues.push(`${tag} fila ${ri} celda "basura" ("${s}") en "${k}"`);
+        if (s !== s.trim())
+          issues.push(`${tag} fila ${ri} celda con espacios al borde en "${k}"`);
+        if (/[☞△►▶◆■]/.test(s))
+          issues.push(`${tag} fila ${ri} celda con marcador (☞/△/etc) en "${k}"`);
+        if (/\uFFFD/.test(s))
+          issues.push(`${tag} fila ${ri} mojibake (U+FFFD) en "${k}"`);
+        if (/[\u00A0\u2028\u2029]/.test(s))
+          issues.push(`${tag} fila ${ri} whitespace raro (NBSP/LS/PS) en "${k}"`);
+        // UN-col cells: múltiples UN mashed con texto entre medio (ej. "UN 1944, Fósforos... UN 1945, Fósforos...")
+        // Listas legítimas tipo "UN 1724 , UN 1728 , UN 1747" pasan sin problema.
+        if (/n[uú]mero(s)?\s+un\b/i.test(k) || /^un$/i.test(k)) {
+          const uns = s.match(/UN\s*\d{3,4}/gi) || [];
+          if (uns.length > 1) {
+            // remove all UN tokens + separators; lo que queda es "texto entre medio"
+            const leftover = s.replace(/UN\s*\d{3,4}/gi, '').replace(/[\s,;/·•]+/g, '').trim();
+            if (leftover.length > 0)
+              issues.push(`${tag} fila ${ri} múltiples UN mashed con texto en "${k}"`);
+          }
+        }
       }
     }
-    if (t.filas.length === 0) issues.push(`T${ti} 0 filas`);
+
   }
   return issues;
 }
@@ -275,9 +355,9 @@ function htmlTableToRendered(table, idx) {
 
 // ─── JSON TABLE RENDER ───────────────────────────────────
 function jsonTableToRendered(t, idx) {
-  const titleWarn = (!t.titulo || t.titulo === 'None') ? ' warn' : '';
+  const hasTitle = t.titulo && t.titulo !== 'None';
   let out = `<div class="tabla-block">`;
-  out += `<div class="tabla-label json-label${titleWarn}">JSON Tabla ${idx}: ${escH(t.titulo || 'None')}</div>`;
+  out += `<div class="tabla-label json-label">JSON Tabla ${idx}${hasTitle ? `: ${escH(t.titulo)}` : ''}</div>`;
 
   out += `<div class="table-responsive"><table class="table table-sm table-bordered mb-0"><thead><tr>`;
   for (const col of t.encabezados) {

@@ -157,18 +157,33 @@ function renderEQ(eqCode, eqData) {
 function renderInstrucciones(items, onuValue) {
   if (!items || items.length === 0) return ''
 
-  const filtered = items.filter(item => {
-    if (!item.un) return true
-    const onuNum = parseInt(onuValue, 10)
-    return item.un.some(u => parseInt(u, 10) === onuNum)
-  })
+  const onuNum = parseInt(onuValue, 10)
+  const matchesUn = (it) => !it.un || it.un.some(u => parseInt(u, 10) === onuNum)
 
-  if (filtered.length === 0) return ''
-
-  const lines = filtered.map(item => {
+  // Render item — heading + filtered sub-items appear grouped in the same spot,
+  // each as its own paragraph, without <hr> separators between them.
+  const renderItem = (item) => {
+    const hasNested = Array.isArray(item.items) && item.items.length > 0
+    if (hasNested) {
+      const nestedFiltered = item.items.filter(matchesUn)
+      if (nestedFiltered.length === 0) return null
+      const texto = Array.isArray(item.texto) ? item.texto.join('<br>') : (item.texto || '')
+      const headingHtml = texto
+        ? `<p class="small text-muted mb-2 instruccion-item">${texto}</p>`
+        : ''
+      const nestedHtml = nestedFiltered.map(sub => {
+        const t = Array.isArray(sub.texto) ? sub.texto.join('<br>') : sub.texto
+        return `<p class="small text-muted mb-2 instruccion-item">${t}</p>`
+      }).join('')
+      return `<div class="instruccion-group">${headingHtml}${nestedHtml}</div>`
+    }
+    if (!matchesUn(item)) return null
     const texto = Array.isArray(item.texto) ? item.texto.join('<br>') : item.texto
     return `<p class="small text-muted mb-1 instruccion-item">${texto}</p>`
-  })
+  }
+
+  const lines = items.map(renderItem).filter(Boolean)
+  if (lines.length === 0) return ''
 
   const sep = '<hr style="margin:12px 0;border:none;border-top:2px solid #aaa;">'
   return `<div class="mt-2">${sep}${lines.join(sep)}</div>`
@@ -262,10 +277,12 @@ function renderTablas(tablas, codigosPI, onuValue) {
         }
       }
 
+      const hasTitulo1 = tabla.titulo && tabla.titulo !== 'null' && String(tabla.titulo).trim() !== ''
+      const titHead1 = hasTitulo1 ? `<thead><tr><th colspan="2" class="text-center">${tabla.titulo}</th></tr></thead>` : ''
       return `
         <div class="mt-2">
           <table class="table table-sm table-bordered mb-0" style="font-size:0.8rem;width:100%;">
-            <thead><tr><th colspan="2" class="text-center">${tabla.titulo}</th></tr></thead>
+            ${titHead1}
             <tbody>${lines.map(l => {
               const m = l.match(/^<span[^>]*>([^<]+)<\/span>\s*(.*)$/)
               if (m) return `<tr><td class="fw-bold">${m[1]}</td><td>${m[2]}</td></tr>`
@@ -306,12 +323,29 @@ function renderTablas(tablas, codigosPI, onuValue) {
       return `<tr>${cells}</tr>`
     }).join('')
 
+    const hasTitulo2 = tabla.titulo && tabla.titulo !== 'null' && String(tabla.titulo).trim() !== ''
+    const titRow2 = hasTitulo2
+      ? `<tr><th colspan="${visibleCols.length}" class="text-center table-dark">${tabla.titulo}</th></tr>`
+      : ''
+    const headerTr = tabla.sin_header ? '' : `<tr class="table-light">${headerRow}</tr>`
+    const theadHtml = (titRow2 || headerTr) ? `<thead>${titRow2}${headerTr}</thead>` : ''
+
+    // Footers condicionales: solo mostrar si el ONU seleccionado está en footer.un (o si no tiene filtro de un)
+    let footerHtml = ''
+    if (Array.isArray(tabla.footers) && tabla.footers.length) {
+      const activos = tabla.footers.filter(f => !Array.isArray(f.un) || f.un.length === 0 || f.un.includes(onuNum))
+      if (activos.length) {
+        footerHtml = `<tfoot>${activos.map(f => `<tr><td colspan="${visibleCols.length}" class="small text-muted fst-italic">${f.texto}</td></tr>`).join('')}</tfoot>`
+      }
+    }
+
     return `
       <div class="mt-2">
         <div class="table-responsive">
           <table class="table table-bordered table-sm small mb-0">
-            <thead><tr><th colspan="${visibleCols.length}" class="text-center table-dark">${tabla.titulo}</th></tr><tr class="table-light">${headerRow}</tr></thead>
+            ${theadHtml}
             <tbody>${bodyRows}</tbody>
+            ${footerHtml}
           </table>
         </div>
       </div>
@@ -328,10 +362,39 @@ async function showEmbalajes(row, container) {
   // Get class images from the Clase column
   const claseIdx = headers.indexOf('Clase')
   const claseRaw = claseIdx >= 0 ? cells[claseIdx]?.textContent.trim() : ''
-  const claseImgFiles = parseClaseImages(claseRaw)
+  let claseImgFiles = parseClaseImages(claseRaw)
+
+  // Extra handling labels from the "Etiqueta" column (e.g. "Mantener alejado del calor")
+  const etiqIdx = headers.indexOf('Etiqueta')
+  const etiqRaw = etiqIdx >= 0 ? cells[etiqIdx]?.textContent || '' : ''
+  const isLitio = /bat\w*\s+(?:de\s+)?litio|bat\w*\s+(?:de\s+)?i[oó]n\s+sodio/i.test(etiqRaw)
+  // When the row is a litio/ión sodio battery, swap 9.png → 9-litio.png
+  if (isLitio) {
+    claseImgFiles = claseImgFiles.map(f => f === '9.png' ? '9-litio.png' : f)
+  }
   const etiquetaImgs = claseImgFiles.map(file =>
     `<img src="Etiquetas/${file}" alt="${file}" title="${file}" style="height:140px;margin-right:8px;">`
   ).join('')
+
+  let extraEtiqImgs = ''
+  if (/mantener\s+alejado\s+del\s+calor/i.test(etiqRaw)) {
+    extraEtiqImgs += `<img src="Etiquetas/alejada-del-calor.png" alt="Mantener alejado del calor" title="Mantener alejado del calor" style="height:140px;margin-right:8px;">`
+  }
+  if (/l[ií]quido\s+criog[eé]nico/i.test(etiqRaw)) {
+    extraEtiqImgs += `<img src="Etiquetas/criogenic.png" alt="Líquido criogénico" title="Líquido criogénico" style="height:140px;margin-right:8px;">`
+  }
+  if (/materiales?\s+magnetizad[oa]s?/i.test(etiqRaw)) {
+    extraEtiqImgs += `<img src="Etiquetas/magentizado.png" alt="Materiales magnetizados" title="Materiales magnetizados" style="height:140px;margin-right:8px;">`
+  }
+  if (isLitio) {
+    extraEtiqImgs += `<img src="Etiquetas/litio.png" alt="Batería de litio / ión sodio" title="Batería de litio / ión sodio" style="height:140px;margin-right:8px;">`
+  }
+  if (/fisible/i.test(etiqRaw)) {
+    extraEtiqImgs += `<img src="Etiquetas/fissible.png" alt="Fisible" title="Fisible" style="height:140px;margin-right:8px;">`
+  }
+  if (/sustancias?\s+nocivas?\s+para\s+el\s+medio\s+ambiente/i.test(etiqRaw)) {
+    extraEtiqImgs += `<img src="Etiquetas/peligro-al-medio-ambiente.png" alt="Sustancias nocivas para el medio ambiente" title="Sustancias nocivas para el medio ambiente" style="height:140px;margin-right:8px;">`
+  }
 
   // Get EQ code from the row
   const eqIdx = headers.indexOf('EQ')
@@ -362,7 +425,9 @@ async function showEmbalajes(row, container) {
     return
   }
 
-  detail.innerHTML = results.map(r => {
+  const topTablesHtml = `${renderEQ(eqCode, eqData)}${renderDispEspec(dispCodes, dispEspec)}`
+
+  detail.innerHTML = topTablesHtml + results.map(r => {
     const tcEntry = tablaClaude[String(r.instruccion)]
     const lineaText = lineas[String(r.instruccion)]
     const lineaHtml = lineaText && lineaText !== '-'
@@ -379,7 +444,7 @@ async function showEmbalajes(row, container) {
       <div class="card-body-collapsible p-3 pt-0">
         <hr class="mt-0 mb-3">
         <h5 class="fw-bold mb-2 text-center" style="text-transform:uppercase;">${columnasEmb[r.origin] || r.origin}</h5>
-        <div class="mb-2 d-flex align-items-center flex-wrap justify-content-center">${etiquetaImgs}${r.origin === 'APCCL Emb' ? '<img src="Etiquetas/Y.png" alt="Carga Limitada" style="height:140px;margin-right:8px;">' : ''}${r.origin === 'AC Emb' ? '<img src="Etiquetas/cargounicamente.png" alt="Cargo Aircraft Only" style="height:140px;margin-right:8px;">' : ''}</div>
+        <div class="mb-2 d-flex align-items-center flex-wrap justify-content-center">${etiquetaImgs}${extraEtiqImgs}${r.origin === 'APCCL Emb' ? '<img src="Etiquetas/Y.png" alt="Carga Limitada" style="height:140px;margin-right:8px;">' : ''}${r.origin === 'AC Emb' ? '<img src="Etiquetas/cargounicamente.png" alt="Cargo Aircraft Only" style="height:140px;margin-right:8px;">' : ''}</div>
         <hr class="mt-0 mb-3">
         <p class="fw-bold small mb-2 text-center text-uppercase">Variaciones Estados</p>
         <p class="small text-muted text-center fst-italic mb-3">${r.variaciones_estados.join('   ')}</p>
@@ -388,8 +453,6 @@ async function showEmbalajes(row, container) {
         ${lineaHtml}
         ${instrHtml}
         ${tablasHtml}
-        ${renderEQ(eqCode, eqData)}
-        ${renderDispEspec(dispCodes, dispEspec)}
       </div>
     </div>
   `}).join('')

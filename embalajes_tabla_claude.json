@@ -2361,28 +2361,33 @@
         {
           "titulo": null,
           "encabezados": [
-            "ISO 10691: 2004",
-            "Cilindros de gas – Cilindros rellenables, de acero y con soldaduras, para gas de petróleo licuado (GPL) – Procedimientos para el control antes, durante y después del llenado."
+            "iso",
+            "desc"
           ],
-          "num_filas": 4,
+          "num_filas": 5,
           "filas": [
             {
-              "ISO 10691: 2004": "ISO 11372: 2011",
-              "Cilindros de gas – Cilindros rellenables, de acero y con soldaduras, para gas de petróleo licuado (GPL) – Procedimientos para el control antes, durante y después del llenado.": "Cilindros de gas – Cilindros de acetileno –  Condiciones e inspección del llenado"
+              "iso": "ISO 10691: 2004",
+              "desc": "Cilindros de gas – Cilindros rellenables, de acero y con soldaduras, para gas de petróleo licuado (GPL) – Procedimientos para el control antes, durante y después del llenado."
             },
             {
-              "ISO 10691: 2004": "ISO 11755: 2005",
-              "Cilindros de gas – Cilindros rellenables, de acero y con soldaduras, para gas de petróleo licuado (GPL) – Procedimientos para el control antes, durante y después del llenado.": "Cilindros de gas –  Bloques de cilindros para gases comprimidos y licuados (excluido el acetileno) – Inspección durante el llenado"
+              "iso": "ISO 11372: 2011",
+              "desc": "Cilindros de gas – Cilindros de acetileno –  Condiciones e inspección del llenado"
             },
             {
-              "ISO 10691: 2004": "ISO 13088: 2011 + Amd. 1:2020",
-              "Cilindros de gas – Cilindros rellenables, de acero y con soldaduras, para gas de petróleo licuado (GPL) – Procedimientos para el control antes, durante y después del llenado.": "Cilindros de gas - Cilindros de acetileno - Condiciones de llenado e inspección de llenado"
+              "iso": "ISO 11755: 2005",
+              "desc": "Cilindros de gas –  Bloques de cilindros para gases comprimidos y licuados (excluido el acetileno) – Inspección durante el llenado"
             },
             {
-              "ISO 10691: 2004": "ISO 24431:2016",
-              "Cilindros de gas – Cilindros rellenables, de acero y con soldaduras, para gas de petróleo licuado (GPL) – Procedimientos para el control antes, durante y después del llenado.": "Cilindros de gas –  Cilindros sin juntas, soldados y compuestos para gases comprimidos y licuados (excluido el acetileno)  – Inspección durante el llenado"
+              "iso": "ISO 13088: 2011 + Amd. 1:2020",
+              "desc": "Cilindros de gas - Cilindros de acetileno - Condiciones de llenado e inspección de llenado"
+            },
+            {
+              "iso": "ISO 24431:2016",
+              "desc": "Cilindros de gas –  Cilindros sin juntas, soldados y compuestos para gases comprimidos y licuados (excluido el acetileno)  – Inspección durante el llenado"
             }
-          ]
+          ],
+          "sin_header": true
         },
         {
           "titulo": null,
@@ -3407,40 +3412,35 @@
           "titulo": null,
           "encabezados": [
             "Número UN",
-            "Cantidad neta por bulto",
-            "Cantidad neta por bulto_1"
+            "Cantidad neta por bulto Avión de pasajeros",
+            "Cantidad neta por bulto Avión de carga"
           ],
-          "num_filas": 6,
+          "num_filas": 5,
           "filas": [
             {
-              "Número UN": "Número UN",
-              "Cantidad neta por bulto": "Avión de pasajeros",
-              "Cantidad neta por bulto_1": "Avión de carga solamente"
-            },
-            {
               "Número UN": "UN 1950 , Aerosoles, inflamables",
-              "Cantidad neta por bulto": "75 kg",
-              "Cantidad neta por bulto_1": "150 kg"
+              "Cantidad neta por bulto Avión de pasajeros": "75 kg",
+              "Cantidad neta por bulto Avión de carga": "150 kg"
             },
             {
               "Número UN": "UN 1950 , Aerosoles,  inflamables (fluido para arranque de motores)",
-              "Cantidad neta por bulto": "Prohibido",
-              "Cantidad neta por bulto_1": "150 kg"
+              "Cantidad neta por bulto Avión de pasajeros": "Prohibido",
+              "Cantidad neta por bulto Avión de carga": "150 kg"
             },
             {
               "Número UN": "UN 1950 , Aerosoles, no inflamables",
-              "Cantidad neta por bulto": "75 kg",
-              "Cantidad neta por bulto_1": "150 kg"
+              "Cantidad neta por bulto Avión de pasajeros": "75 kg",
+              "Cantidad neta por bulto Avión de carga": "150 kg"
             },
             {
               "Número UN": "UN 1950 , Aerosoles,  no inflamables  (dispositivos de gas lacrimógeno)",
-              "Cantidad neta por bulto": "Prohibido",
-              "Cantidad neta por bulto_1": "50 kg"
+              "Cantidad neta por bulto Avión de pasajeros": "Prohibido",
+              "Cantidad neta por bulto Avión de carga": "50 kg"
             },
             {
               "Número UN": "UN 2037 Cartuchos de gas o Recipientes pequeños que contienen gas",
-              "Cantidad neta por bulto": "1 kg",
-              "Cantidad neta por bulto_1": "15 kg"
+              "Cantidad neta por bulto Avión de pasajeros": "1 kg",
+              "Cantidad neta por bulto Avión de carga": "15 kg"
             }
           ]
         },
@@ -4298,15 +4298,17 @@
           "titulo": "EMBALAJES COMBINADOS",
           "encabezados": [
             "Número UN",
-            "Cantidad máxima por bulto",
-            "Cantidad máxima por bulto_1"
+            "Cantidad máxima por bulto"
           ],
-          "num_filas": 1,
+          "num_filas": 2,
           "filas": [
             {
-              "Número UN": "UN 3478 Cartuchos para pilas de combustible , que contienen gas licuado inflamable UN 3479 Cartuchos para pilas de combustible , que contienen hidrógeno en un hidruro metálico",
-              "Cantidad máxima por bulto": "0,5 kg de cartuchos para pilas de combustible",
-              "Cantidad máxima por bulto_1": "0,5 kg de cartuchos para pilas de combustible"
+              "Número UN": "UN 3478 Cartuchos para pilas de combustible , que contienen gas licuado inflamable",
+              "Cantidad máxima por bulto": "0,5 kg de cartuchos para pilas de combustible"
+            },
+            {
+              "Número UN": "UN 3479 Cartuchos para pilas de combustible , que contienen hidrógeno en un hidruro metálico",
+              "Cantidad máxima por bulto": "0,5 kg de cartuchos para pilas de combustible"
             }
           ]
         },
@@ -6968,9 +6970,7 @@
             "Cantidad neta por embalaje interior (MATERIAL DE BASE)",
             "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)",
             "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)",
-            "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1",
-            "Cantidad neta total por bulto",
-            "Cantidad neta total por bulto_1"
+            "Cantidad neta total por bulto"
           ],
           "num_filas": 10,
           "filas": [
@@ -6980,9 +6980,7 @@
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "125 mL",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "500 g",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "500 g",
-              "Cantidad neta total por bulto": "5,0 kg",
-              "Cantidad neta total por bulto_1": "5,0 kg"
+              "Cantidad neta total por bulto": "5,0 kg"
             },
             {
               "Juegos de resina de poliéster": "Activador (Peróxido orgánico)",
@@ -6990,9 +6988,7 @@
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "125 mL",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "500 g",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "500 g",
-              "Cantidad neta total por bulto": "5,0 kg",
-              "Cantidad neta total por bulto_1": "5,0 kg"
+              "Cantidad neta total por bulto": "5,0 kg"
             },
             {
               "Juegos de resina de poliéster": "Material de base (Clase 3, PG II)",
@@ -7000,9 +6996,7 @@
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "1,0 L",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "N/A",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "N/A",
-              "Cantidad neta total por bulto": "5,0 kg",
-              "Cantidad neta total por bulto_1": "5,0 kg"
+              "Cantidad neta total por bulto": "5,0 kg"
             },
             {
               "Juegos de resina de poliéster": "Material de base (Clase 3, PG II)",
@@ -7010,9 +7004,7 @@
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "5,0 L",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "N/A",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "N/A",
-              "Cantidad neta total por bulto": "5,0 kg",
-              "Cantidad neta total por bulto_1": "5,0 kg"
+              "Cantidad neta total por bulto": "5,0 kg"
             },
             {
               "Juegos de resina de poliéster": "Material de base (Clase 3, PG II)",
@@ -7020,9 +7012,7 @@
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "5,0 L",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "N/A",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "N/A",
-              "Cantidad neta total por bulto": "5,0 kg",
-              "Cantidad neta total por bulto_1": "5,0 kg"
+              "Cantidad neta total por bulto": "5,0 kg"
             },
             {
               "Juegos de resina de poliéster": "Activador (peróxido orgánico)",
@@ -7030,9 +7020,7 @@
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "125 mL",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "500 g",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "500 g",
-              "Cantidad neta total por bulto": "10,0 kg",
-              "Cantidad neta total por bulto_1": "10,0 kg"
+              "Cantidad neta total por bulto": "10,0 kg"
             },
             {
               "Juegos de resina de poliéster": "Activador (peróxido orgánico)",
@@ -7040,9 +7028,7 @@
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "125 mL",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "500 g",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "500 g",
-              "Cantidad neta total por bulto": "10,0 kg",
-              "Cantidad neta total por bulto_1": "10,0 kg"
+              "Cantidad neta total por bulto": "10,0 kg"
             },
             {
               "Juegos de resina de poliéster": "Material base (Clase 3, PG III)",
@@ -7050,9 +7036,7 @@
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "2,5 L",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "N/A",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "N/A",
-              "Cantidad neta total por bulto": "10,0 kg",
-              "Cantidad neta total por bulto_1": "10,0 kg"
+              "Cantidad neta total por bulto": "10,0 kg"
             },
             {
               "Juegos de resina de poliéster": "Material base (Clase 3, PG III)",
@@ -7060,9 +7044,7 @@
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "10,0 L",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "N/A",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "N/A",
-              "Cantidad neta total por bulto": "10,0 kg",
-              "Cantidad neta total por bulto_1": "10,0 kg"
+              "Cantidad neta total por bulto": "10,0 kg"
             },
             {
               "Juegos de resina de poliéster": "Material base (Clase 3, PG III)",
@@ -7070,9 +7052,7 @@
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "10,0 L",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "N/A",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "N/A",
-              "Cantidad neta total por bulto": "10,0 kg",
-              "Cantidad neta total por bulto_1": "10,0 kg"
+              "Cantidad neta total por bulto": "10,0 kg"
             }
           ]
         },
@@ -7834,36 +7814,28 @@
           "encabezados": [
             "Números UN",
             "Embalaje interior (véase 6.1 )",
-            "Embalaje interior (véase 6.1 )_1",
             "Cantidad neta por embalaje interior Avión de Carga Solamente",
-            "Cantidad neta total por bulto Avión de Carga Solamente",
-            "Cantidad neta total por bulto Avión de Carga Solamente_1"
+            "Cantidad neta total por bulto Avión de Carga Solamente"
           ],
           "num_filas": 3,
           "filas": [
             {
               "Números UN": "UN 1162 , UN 1196 , UN 1250 , UN 1298 , UN 1305 , UN 2985",
               "Embalaje interior (véase 6.1 )": "Vidrio",
-              "Embalaje interior (véase 6.1 )_1": "Vidrio",
               "Cantidad neta por embalaje interior Avión de Carga Solamente": "1,0 L",
-              "Cantidad neta total por bulto Avión de Carga Solamente": "5,0 L",
-              "Cantidad neta total por bulto Avión de Carga Solamente_1": "5,0 L"
+              "Cantidad neta total por bulto Avión de Carga Solamente": "5,0 L"
             },
             {
               "Números UN": "UN 1162 , UN 1196 , UN 1250 , UN 1298 , UN 1305 , UN 2985",
               "Embalaje interior (véase 6.1 )": "Acero",
-              "Embalaje interior (véase 6.1 )_1": "Acero",
               "Cantidad neta por embalaje interior Avión de Carga Solamente": "5,0 L",
-              "Cantidad neta total por bulto Avión de Carga Solamente": "5,0 L",
-              "Cantidad neta total por bulto Avión de Carga Solamente_1": "5,0 L"
+              "Cantidad neta total por bulto Avión de Carga Solamente": "5,0 L"
             },
             {
               "Números UN": "UN 1162 , UN 1196 , UN 1250 , UN 1298 , UN 1305 , UN 2985",
               "Embalaje interior (véase 6.1 )": "Plástico",
-              "Embalaje interior (véase 6.1 )_1": "Plástico",
               "Cantidad neta por embalaje interior Avión de Carga Solamente": "Prohibido",
-              "Cantidad neta total por bulto Avión de Carga Solamente": "5,0 L",
-              "Cantidad neta total por bulto Avión de Carga Solamente_1": "5,0 L"
+              "Cantidad neta total por bulto Avión de Carga Solamente": "5,0 L"
             }
           ]
         },
@@ -8627,9 +8599,7 @@
             "Embalaje interior (véase 6.1 )",
             "Cantidad neta por embalaje interior (MATERIAL DE BASE)",
             "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)",
-            "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)_1",
             "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)",
-            "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1",
             "Cantidad neta total por bulto"
           ],
           "num_filas": 10,
@@ -8639,9 +8609,7 @@
               "Embalaje interior (véase 6.1 )": "Metal 1",
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "30 mL",
-              "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)_1": "30 mL",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "100 g",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "100 g",
               "Cantidad neta total por bulto": "1,0 kg"
             },
             {
@@ -8649,9 +8617,7 @@
               "Embalaje interior (véase 6.1 )": "Plástico 1",
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "30 mL",
-              "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)_1": "30 mL",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "100 g",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "100 g",
               "Cantidad neta total por bulto": "1,0 kg"
             },
             {
@@ -8659,9 +8625,7 @@
               "Embalaje interior (véase 6.1 )": "Vidrio",
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "1,0 L",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "N/A",
-              "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)_1": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "N/A",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "N/A",
               "Cantidad neta total por bulto": "1,0 kg"
             },
             {
@@ -8669,9 +8633,7 @@
               "Embalaje interior (véase 6.1 )": "Metal",
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "1,0 L",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "N/A",
-              "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)_1": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "N/A",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "N/A",
               "Cantidad neta total por bulto": "1,0 kg"
             },
             {
@@ -8679,9 +8641,7 @@
               "Embalaje interior (véase 6.1 )": "Plástico",
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "1,0 L",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "N/A",
-              "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)_1": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "N/A",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "N/A",
               "Cantidad neta total por bulto": "1,0 kg"
             },
             {
@@ -8689,9 +8649,7 @@
               "Embalaje interior (véase 6.1 )": "Metal 1",
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "30 mL",
-              "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)_1": "30 mL",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "100 g",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "100 g",
               "Cantidad neta total por bulto": "5 kg"
             },
             {
@@ -8699,9 +8657,7 @@
               "Embalaje interior (véase 6.1 )": "Plástico 1",
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "30 mL",
-              "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)_1": "30 mL",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "100 g",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "100 g",
               "Cantidad neta total por bulto": "5 kg"
             },
             {
@@ -8709,9 +8665,7 @@
               "Embalaje interior (véase 6.1 )": "Vidrio",
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "2,5 L",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "N/A",
-              "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)_1": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "N/A",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "N/A",
               "Cantidad neta total por bulto": "5 kg"
             },
             {
@@ -8719,9 +8673,7 @@
               "Embalaje interior (véase 6.1 )": "Metal",
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "5,0 L",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "N/A",
-              "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)_1": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "N/A",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "N/A",
               "Cantidad neta total por bulto": "5 kg"
             },
             {
@@ -8729,9 +8681,7 @@
               "Embalaje interior (véase 6.1 )": "Plástico",
               "Cantidad neta por embalaje interior (MATERIAL DE BASE)": "5,0 L",
               "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)": "N/A",
-              "Cantidad neta por embalaje interior (ACTIVADOR LÍQUIDO)_1": "N/A",
               "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)": "N/A",
-              "Cantidad neta por embalaje interior (ACTIVADOR SÓLIDO)_1": "N/A",
               "Cantidad neta total por bulto": "5 kg"
             }
           ]
@@ -8828,7 +8778,7 @@
         {
           "titulo": "EMBALAJES COMBINADOS",
           "encabezados": [
-            "col_0",
+            "UN",
             "Embalaje interior (véase 6.1 )",
             "Cantidad neta por embalaje interior",
             "Cantidad neta total por bulto"
@@ -8836,22 +8786,22 @@
           "num_filas": 3,
           "filas": [
             {
-              "col_0": "UN 1228 Mercaptanos líquidos tóxicos inflamables, n.e.p ★ PG III",
               "Embalaje interior (véase 6.1 )": "Vidrio",
               "Cantidad neta por embalaje interior": "0,5 L",
-              "Cantidad neta total por bulto": "1,0 L"
+              "Cantidad neta total por bulto": "1,0 L",
+              "UN": "UN 1228 Mercaptanos líquidos tóxicos inflamables, n.e.p ★ PG III"
             },
             {
-              "col_0": "UN 1228 Mercaptanos líquidos tóxicos inflamables, n.e.p ★ PG III",
               "Embalaje interior (véase 6.1 )": "Metal",
               "Cantidad neta por embalaje interior": "0,5 L",
-              "Cantidad neta total por bulto": "1,0 L"
+              "Cantidad neta total por bulto": "1,0 L",
+              "UN": "UN 1228 Mercaptanos líquidos tóxicos inflamables, n.e.p ★ PG III"
             },
             {
-              "col_0": "UN 1228 Mercaptanos líquidos tóxicos inflamables, n.e.p ★ PG III",
               "Embalaje interior (véase 6.1 )": "Plástico",
               "Cantidad neta por embalaje interior": "0,5 L",
-              "Cantidad neta total por bulto": "1,0 L"
+              "Cantidad neta total por bulto": "1,0 L",
+              "UN": "UN 1228 Mercaptanos líquidos tóxicos inflamables, n.e.p ★ PG III"
             }
           ]
         },
@@ -8940,15 +8890,13 @@
           "titulo": "EMBALAJES COMBINADOS",
           "encabezados": [
             "Número UN",
-            "Cantidad máxima por bulto",
-            "Cantidad máxima por bulto_1"
+            "Cantidad máxima por bulto"
           ],
           "num_filas": 1,
           "filas": [
             {
               "Número UN": "UN 3473 Cartuchos para pilas de combustible , que contienen líquido inflamable",
-              "Cantidad máxima por bulto": "2,5 kg de cartuchos para pilas de combustible",
-              "Cantidad máxima por bulto_1": "2,5 kg de cartuchos para pilas de combustible"
+              "Cantidad máxima por bulto": "2,5 kg de cartuchos para pilas de combustible"
             }
           ]
         },
@@ -9868,6 +9816,12 @@
               "Cantidad neta por embalaje interior (ACTIVADOR SOLIDO)": "N/A",
               "Cantidad neta total por bulto": "10.0 kg"
             }
+          ],
+          "footers": [
+            {
+              "texto": "(1): Incluyendo tubos",
+              "un": []
+            }
           ]
         },
         {
@@ -9973,253 +9927,684 @@
             "Número UN",
             "Embalaje interior (véase 6.1 )",
             "Cantidad neta por embalaje interior",
-            "Cantidad neta por embalaje interior_1",
             "Cantidad neta total por bulto Aviones de Pasajeros",
-            "Cantidad neta total por bulto Aviones de Pasajeros_1",
-            "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)",
-            "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1"
+            "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)"
           ],
-          "num_filas": 24,
+          "num_filas": 94,
           "filas": [
             {
-              "Número UN": "UN 1354, UN 1355, UN 1356, UN 3364, UN 3365, UN 3366, UN 3367, UN 3368, UN 3369, UN 3370",
+              "Número UN": "UN 1354",
               "Embalaje interior (véase 6.1 )": "Vidrio",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "0,5 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
             },
             {
-              "Número UN": "UN 1354, UN 1355, UN 1356, UN 3364, UN 3365, UN 3366, UN 3367, UN 3368, UN 3369, UN 3370",
-              "Embalaje interior (véase 6.1 )": "Metal",
-              "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "0,5 kg"
-            },
-            {
-              "Número UN": "UN 1354, UN 1355, UN 1356, UN 3364, UN 3365, UN 3366, UN 3367, UN 3368, UN 3369, UN 3370",
-              "Embalaje interior (véase 6.1 )": "Plástico",
-              "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "0,5 kg"
-            },
-            {
-              "Número UN": "UN 1354, UN 1355, UN 1356, UN 3364, UN 3365, UN 3366, UN 3367, UN 3368, UN 3369, UN 3370",
-              "Embalaje interior (véase 6.1 )": "Sacos de plástico",
-              "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "0,5 kg"
-            },
-            {
-              "Número UN": "UN 1336, UN 1337, UN 1357",
+              "Número UN": "UN 1355",
               "Embalaje interior (véase 6.1 )": "Vidrio",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "1,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "15,0 kg"
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
             },
             {
-              "Número UN": "UN 1336, UN 1337, UN 1357",
+              "Número UN": "UN 1356",
+              "Embalaje interior (véase 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3364",
+              "Embalaje interior (véase 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3365",
+              "Embalaje interior (véase 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3366",
+              "Embalaje interior (véase 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3367",
+              "Embalaje interior (véase 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3368",
+              "Embalaje interior (véase 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3369",
+              "Embalaje interior (véase 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3370",
+              "Embalaje interior (véase 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 1354",
               "Embalaje interior (véase 6.1 )": "Metal",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "1,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "15,0 kg"
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
             },
             {
-              "Número UN": "UN 1336, UN 1337, UN 1357",
+              "Número UN": "UN 1355",
+              "Embalaje interior (véase 6.1 )": "Metal",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 1356",
+              "Embalaje interior (véase 6.1 )": "Metal",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3364",
+              "Embalaje interior (véase 6.1 )": "Metal",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3365",
+              "Embalaje interior (véase 6.1 )": "Metal",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3366",
+              "Embalaje interior (véase 6.1 )": "Metal",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3367",
+              "Embalaje interior (véase 6.1 )": "Metal",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3368",
+              "Embalaje interior (véase 6.1 )": "Metal",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3369",
+              "Embalaje interior (véase 6.1 )": "Metal",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3370",
+              "Embalaje interior (véase 6.1 )": "Metal",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 1354",
               "Embalaje interior (véase 6.1 )": "Plástico",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "1,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "15,0 kg"
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
             },
             {
-              "Número UN": "UN 1336, UN 1337, UN 1357",
+              "Número UN": "UN 1355",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 1356",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3364",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3365",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3366",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3367",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3368",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3369",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3370",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 1354",
               "Embalaje interior (véase 6.1 )": "Sacos de plástico",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 1355",
+              "Embalaje interior (véase 6.1 )": "Sacos de plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 1356",
+              "Embalaje interior (véase 6.1 )": "Sacos de plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3364",
+              "Embalaje interior (véase 6.1 )": "Sacos de plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3365",
+              "Embalaje interior (véase 6.1 )": "Sacos de plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3366",
+              "Embalaje interior (véase 6.1 )": "Sacos de plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3367",
+              "Embalaje interior (véase 6.1 )": "Sacos de plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3368",
+              "Embalaje interior (véase 6.1 )": "Sacos de plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3369",
+              "Embalaje interior (véase 6.1 )": "Sacos de plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 3370",
+              "Embalaje interior (véase 6.1 )": "Sacos de plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 1336",
+              "Embalaje interior (véase 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior": "0,5 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "1,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "15,0 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1337",
+              "Embalaje interior (véase 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1357",
+              "Embalaje interior (véase 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1336",
+              "Embalaje interior (véase 6.1 )": "Metal",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1337",
+              "Embalaje interior (véase 6.1 )": "Metal",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1357",
+              "Embalaje interior (véase 6.1 )": "Metal",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1336",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1337",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1357",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1336",
+              "Embalaje interior (véase 6.1 )": "Sacos de plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1337",
+              "Embalaje interior (véase 6.1 )": "Sacos de plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1357",
+              "Embalaje interior (véase 6.1 )": "Sacos de plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
             },
             {
               "Número UN": "UN 1310 (1)",
               "Embalaje interior (véase 6.1 )": "Vidrio",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "0,5 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
             },
             {
               "Número UN": "UN 1310 (1)",
               "Embalaje interior (véase 6.1 )": "Metal",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "0,5 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
             },
             {
               "Número UN": "UN 1310 (1)",
               "Embalaje interior (véase 6.1 )": "Plástico",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "0,5 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
             },
             {
               "Número UN": "UN 1310 (1)",
               "Embalaje interior (véase 6.1 )": "Sacos de plástico",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "0,5 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
             },
             {
               "Número UN": "UN 1349 (1)",
               "Embalaje interior (véase 6.1 )": "Vidrio",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "Prohibido",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "Prohibido",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "15,0 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
             },
             {
               "Número UN": "UN 1349 (1)",
               "Embalaje interior (véase 6.1 )": "Metal",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "Prohibido",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "Prohibido",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "15,0 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
             },
             {
               "Número UN": "UN 1349 (1)",
               "Embalaje interior (véase 6.1 )": "Plástico",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "Prohibido",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "Prohibido",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "15,0 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
             },
             {
               "Número UN": "UN 1349 (1)",
               "Embalaje interior (véase 6.1 )": "Sacos de plástico",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "Prohibido",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "Prohibido",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "15,0 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
             },
             {
-              "Número UN": "UN 1320, UN 1321, UN 1322, UN 1344, UN 1348, UN 1517, UN 3317 (1)",
+              "Número UN": "UN 1320 (1)",
               "Embalaje interior (véase 6.1 )": "Vidrio",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "1,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "15,0 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
             },
             {
-              "Número UN": "UN 1320, UN 1321, UN 1322, UN 1344, UN 1348, UN 1517, UN 3317 (1)",
+              "Número UN": "UN 1321 (1)",
+              "Embalaje interior (véase 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1322 (1)",
+              "Embalaje interior (véase 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1344 (1)",
+              "Embalaje interior (véase 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1348 (1)",
+              "Embalaje interior (véase 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1517 (1)",
+              "Embalaje interior (véase 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 3317 (1)",
+              "Embalaje interior (véase 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1320 (1)",
               "Embalaje interior (véase 6.1 )": "Metal",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "1,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "15,0 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
             },
             {
-              "Número UN": "UN 1320, UN 1321, UN 1322, UN 1344, UN 1348, UN 1517, UN 3317 (1)",
+              "Número UN": "UN 1321 (1)",
+              "Embalaje interior (véase 6.1 )": "Metal",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1322 (1)",
+              "Embalaje interior (véase 6.1 )": "Metal",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1344 (1)",
+              "Embalaje interior (véase 6.1 )": "Metal",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1348 (1)",
+              "Embalaje interior (véase 6.1 )": "Metal",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1517 (1)",
+              "Embalaje interior (véase 6.1 )": "Metal",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 3317 (1)",
+              "Embalaje interior (véase 6.1 )": "Metal",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1320 (1)",
               "Embalaje interior (véase 6.1 )": "Plástico",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "1,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "15,0 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
             },
             {
-              "Número UN": "UN 1320, UN 1321, UN 1322, UN 1344, UN 1348, UN 1517, UN 3317 (1)",
+              "Número UN": "UN 1321 (1)",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1322 (1)",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1344 (1)",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1348 (1)",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1517 (1)",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 3317 (1)",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1320 (1)",
               "Embalaje interior (véase 6.1 )": "Sacos de plástico",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "1,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "15,0 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
             },
             {
-              "Número UN": "UN 1571, UN 2852",
+              "Número UN": "UN 1321 (1)",
+              "Embalaje interior (véase 6.1 )": "Sacos de plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1322 (1)",
+              "Embalaje interior (véase 6.1 )": "Sacos de plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1344 (1)",
+              "Embalaje interior (véase 6.1 )": "Sacos de plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1348 (1)",
+              "Embalaje interior (véase 6.1 )": "Sacos de plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1517 (1)",
+              "Embalaje interior (véase 6.1 )": "Sacos de plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 3317 (1)",
+              "Embalaje interior (véase 6.1 )": "Sacos de plástico",
+              "Cantidad neta por embalaje interior": "0,5 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "1,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "15,0 kg"
+            },
+            {
+              "Número UN": "UN 1571",
               "Embalaje interior (véase 6.1 )": "Vidrio",
               "Cantidad neta por embalaje interior": "0,25 kg",
-              "Cantidad neta por embalaje interior_1": "0,25 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "Prohibido",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "Prohibido",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "0,5 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
             },
             {
-              "Número UN": "UN 1571, UN 2852",
+              "Número UN": "UN 2852",
+              "Embalaje interior (véase 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior": "0,25 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "Prohibido",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 1571",
               "Embalaje interior (véase 6.1 )": "Plástico",
               "Cantidad neta por embalaje interior": "0,25 kg",
-              "Cantidad neta por embalaje interior_1": "0,25 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "Prohibido",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "Prohibido",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "0,5 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            },
+            {
+              "Número UN": "UN 2852",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "0,25 kg",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "Prohibido",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
             },
             {
               "Número UN": "UN 3474",
               "Embalaje interior (véase 6.1 )": "Vidrio",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "0,5 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
             },
             {
               "Número UN": "UN 3474",
               "Embalaje interior (véase 6.1 )": "Plástico",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "0,5 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "0,5 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "0,5 kg"
+            }
+          ],
+          "footers": [
+            {
+              "texto": "(1): Los embalajes no deben contener plomo en el caso de los números UN 1310, UN 1320, UN 1321, UN 1322, UN 1344, UN 1348, UN 1349, UN 1517 y UN 3317",
+              "un": [
+                1310,
+                1320,
+                1321,
+                1322,
+                1344,
+                1348,
+                1349,
+                1517,
+                3317
+              ]
             }
           ]
         },
@@ -10896,10 +11281,15 @@
             "Cantidad neta total por bulto Aviones de Pasajeros",
             "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)"
           ],
-          "num_filas": 1,
+          "num_filas": 2,
           "filas": [
             {
-              "Número UN": "UN 1944, Fósforos de seguridad UN 1945, Fósforos de cera “vesta”",
+              "Número UN": "UN 1944, Fósforos de seguridad",
+              "Cantidad neta total por bulto Aviones de Pasajeros": "25,0 kg",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "100,0 kg"
+            },
+            {
+              "Número UN": "UN 1945, Fósforos de cera “vesta”",
               "Cantidad neta total por bulto Aviones de Pasajeros": "25,0 kg",
               "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "100,0 kg"
             }
@@ -11047,11 +11437,8 @@
             "Número UN",
             "Embalaje interior (véase 6.1 )",
             "Cantidad neta por embalaje interior",
-            "Cantidad neta por embalaje interior_1",
             "Cantidad neta total por bulto Aviones de Pasajeros",
-            "Cantidad neta total por bulto Aviones de Pasajeros_1",
-            "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)",
-            "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1"
+            "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)"
           ],
           "num_filas": 3,
           "filas": [
@@ -11059,31 +11446,22 @@
               "Número UN": "UN 3241, 2-bromo-2-nitro-1,3-propanodiol",
               "Embalaje interior (véase 6.1 )": "Vidrio",
               "Cantidad neta por embalaje interior": "0,5 kg",
-              "Cantidad neta por embalaje interior_1": "0,5 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "25,0 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "25,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "50,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "50,0 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "50,0 kg"
             },
             {
               "Número UN": "UN 3241, 2-bromo-2-nitro-1,3-propanodiol",
               "Embalaje interior (véase 6.1 )": "Plástico",
               "Cantidad neta por embalaje interior": "1,0 kg",
-              "Cantidad neta por embalaje interior_1": "1,0 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "25,0 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "25,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "50,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "50,0 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "50,0 kg"
             },
             {
               "Número UN": "UN 3241, 2-bromo-2-nitro-1,3-propanodiol",
               "Embalaje interior (véase 6.1 )": "Sacos de plástico",
               "Cantidad neta por embalaje interior": "1,0 kg",
-              "Cantidad neta por embalaje interior_1": "1,0 kg",
               "Cantidad neta total por bulto Aviones de Pasajeros": "25,0 kg",
-              "Cantidad neta total por bulto Aviones de Pasajeros_1": "25,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "50,0 kg",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "50,0 kg"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "50,0 kg"
             }
           ]
         },
@@ -16046,7 +16424,7 @@
           "titulo": null,
           "encabezados": [
             "Número UN",
-            "col_1",
+            "",
             "Cantidad total por bulto Avión de pasajeros",
             "Cantidad total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)"
           ],
@@ -16054,15 +16432,15 @@
           "filas": [
             {
               "Número UN": "UN 3292, Baterías que contienen sodio metálico o aleación de sodio",
-              "col_1": "Las baterías pueden entregarse para el transporte y transportarse sin embalar o en receptáculos protectores, como jaulas de listones de madera o totalmente cerradas, que no están sujetos a los requisitos de la sección 6",
               "Cantidad total por bulto Avión de pasajeros": "Prohibido",
-              "Cantidad total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "Sin límite"
+              "Cantidad total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "Sin límite",
+              "": "Las baterías pueden entregarse para el transporte y transportarse sin embalar o en receptáculos protectores, como jaulas de listones de madera o totalmente cerradas, que no están sujetos a los requisitos de la sección 6"
             },
             {
               "Número UN": "UN 3292, Pilas que contienen sodio  metálico o aleación de sodio",
-              "col_1": "Debe haber suficiente material  amortiguador para evitar el contacto entre las pilas, y entre las pilas y las superficies internas del embalaje externo, para garantizar que no  haya ningún movimiento peligroso de las pilas dentro del embalaje externo durante el transporte.",
               "Cantidad total por bulto Avión de pasajeros": "25,0 kg",
-              "Cantidad total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "400 kg"
+              "Cantidad total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "400 kg",
+              "": "Debe haber suficiente material  amortiguador para evitar el contacto entre las pilas, y entre las pilas y las superficies internas del embalaje externo, para garantizar que no  haya ningún movimiento peligroso de las pilas dentro del embalaje externo durante el transporte."
             }
           ]
         },
@@ -17329,6 +17707,12 @@
               "Cantidad neta por embalaje interior (ACTIVADOR SOLIDO)": "N/A",
               "Cantidad neta total por bulto": "5.0 kg"
             }
+          ],
+          "footers": [
+            {
+              "texto": "(1): Incluyendo tubos",
+              "un": []
+            }
           ]
         },
         {
@@ -17521,15 +17905,17 @@
           "titulo": "EMBALAJES COMBINADOS",
           "encabezados": [
             "Número UN",
-            "Cantidad neta total por bulto",
-            "Cantidad neta total por bulto_1"
+            "Cantidad neta total por bulto"
           ],
-          "num_filas": 1,
+          "num_filas": 2,
           "filas": [
             {
-              "Número UN": "UN 1944, Fósforos de seguridad UN 1945, Fósforos de cera “vesta”",
-              "Cantidad neta total por bulto": "10,0 kg",
-              "Cantidad neta total por bulto_1": "10,0 kg"
+              "Número UN": "UN 1944, Fósforos de seguridad",
+              "Cantidad neta total por bulto": "10,0 kg"
+            },
+            {
+              "Número UN": "UN 1945, Fósforos de cera \"vesta\"",
+              "Cantidad neta total por bulto": "10,0 kg"
             }
           ]
         },
@@ -17725,15 +18111,13 @@
           "titulo": "EMBALAJES COMBINADOS",
           "encabezados": [
             "Número UN",
-            "Cantidad neta total por bulto",
-            "Cantidad neta total por bulto_1"
+            "Cantidad neta total por bulto"
           ],
           "num_filas": 1,
           "filas": [
             {
               "Número UN": "UN 3270, Filtros de membrana de nitrocelulosa",
-              "Cantidad neta total por bulto": "1,0 kg",
-              "Cantidad neta total por bulto_1": "1,0 kg"
+              "Cantidad neta total por bulto": "1,0 kg"
             }
           ]
         },
@@ -18325,15 +18709,13 @@
           "titulo": "EMBALAJES COMBINADOS",
           "encabezados": [
             "Número UN",
-            "Cantidad máxima por bulto",
-            "Cantidad máxima por bulto_1"
+            "Cantidad máxima por bulto"
           ],
           "num_filas": 1,
           "filas": [
             {
               "Número UN": "UN 3476 Cartuchos para pilas de combustible , que contienen sustancias que reaccionan con el agua",
-              "Cantidad máxima por bulto": "2,5 kg de cartuchos para pilas de combustible",
-              "Cantidad máxima por bulto_1": "2,5 kg de cartuchos para pilas de combustible"
+              "Cantidad máxima por bulto": "2,5 kg de cartuchos para pilas de combustible"
             }
           ]
         },
@@ -20152,7 +20534,7 @@
           "titulo": "EMBALAJES COMBINADOS",
           "encabezados": [
             "Número UN",
-            "col_1",
+            "",
             "Cantidad total por bulto Avión de pasajeros",
             "Cantidad total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)"
           ],
@@ -20160,9 +20542,9 @@
           "filas": [
             {
               "Número UN": "UN 3356, Generador químico de oxígeno",
-              "col_1": "Los generadores deben estar bien embalados en uno de los embalajes exteriores que se enumeran a continuación",
               "Cantidad total por bulto Avión de pasajeros": "Prohibido",
-              "Cantidad total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "25 kg"
+              "Cantidad total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "25 kg",
+              "": "Los generadores deben estar bien embalados en uno de los embalajes exteriores que se enumeran a continuación"
             }
           ]
         },
@@ -21207,8 +21589,8 @@
           "filas": [
             {
               "Número UN": "UN 3507 Material radiactivo, hexafluoruro de uranio, bulto exceptuado , no fisionable o fisionable exceptuado",
-              "Cantidad neta por bulto Avión de pasajeros": "Menos de\n0,1 kg",
-              "Cantidad neta por bulto Avión de carga solamente": "Menos de\n0,1 kg"
+              "Cantidad neta por bulto Avión de pasajeros": "Menos de 0,1 kg",
+              "Cantidad neta por bulto Avión de carga solamente": "Menos de 0,1 kg"
             }
           ]
         },
@@ -26531,25 +26913,25 @@
           "titulo": "EMBALAJES COMBINADOS",
           "encabezados": [
             "Número UN",
-            "col_1",
+            "",
             "Cantidad neta total por bulto"
           ],
           "num_filas": 3,
           "filas": [
             {
               "Número UN": "UN 1700, Velas lacrimógenas",
-              "col_1": "Los elementos no deben montarse en granadas o dispositivos, sino que deben embalarse en una caja de madera separada (4C1, 4C2) y acolchada de tal modo que no puedan entrar en contacto unos con otros o con las paredes del embalaje durante el transporte. No se permiten más de 24 granadas y 24 dispositivos de funcionamiento por bulto.",
-              "Cantidad neta total por bulto": "50,0 kg"
+              "Cantidad neta total por bulto": "50,0 kg",
+              "": "Los elementos no deben montarse en granadas o dispositivos, sino que deben embalarse en una caja de madera separada (4C1, 4C2) y acolchada de tal modo que no puedan entrar en contacto unos con otros o con las paredes del embalaje durante el transporte. No se permiten más de 24 granadas y 24 dispositivos de funcionamiento por bulto."
             },
             {
               "Número UN": "UN 2016, Municiones tóxicas no explosivas",
-              "col_1": "",
-              "Cantidad neta total por bulto": "75,0 kg"
+              "Cantidad neta total por bulto": "75,0 kg",
+              "": ""
             },
             {
               "Número UN": "UN 2017, Municiones lacrimógenas no explosivas",
-              "col_1": "",
-              "Cantidad neta total por bulto": "50,0 kg"
+              "Cantidad neta total por bulto": "50,0 kg",
+              "": ""
             }
           ]
         },
@@ -26929,84 +27311,46 @@
           "encabezados": [
             "Número UN",
             "Embalaje interior (véase 6.1 )",
-            "Embalaje interior (véase 6.1 )_1",
             "Cantidad neta por embalaje interior Avión de Carga Solamente (“Cargo Aircraft Only”)",
-            "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)",
-            "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1"
+            "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)"
           ],
-          "num_filas": 9,
+          "num_filas": 6,
           "filas": [
             {
-              "Número UN": "UN 3361, Clorosilanos, tóxicos, corrosivos, n.e.p. UN 3362, Clorosilanos, tóxicos, corrosivos, inflamables, n.e.p.",
-              "Embalaje interior (véase 6.1 )": "",
-              "Embalaje interior (véase 6.1 )_1": "",
-              "Cantidad neta por embalaje interior Avión de Carga Solamente (“Cargo Aircraft Only”)": "",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "30,0 L",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "30,0 L"
-            },
-            {
-              "Número UN": "UN 3361, Clorosilanos, tóxicos, corrosivos, n.e.p. UN 3362, Clorosilanos, tóxicos, corrosivos, inflamables, n.e.p.",
-              "Embalaje interior (véase 6.1 )": "",
-              "Embalaje interior (véase 6.1 )_1": "",
-              "Cantidad neta por embalaje interior Avión de Carga Solamente (“Cargo Aircraft Only”)": "",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "30,0 L",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "30,0 L"
-            },
-            {
-              "Número UN": "UN 3361, Clorosilanos, tóxicos, corrosivos, n.e.p. UN 3362, Clorosilanos, tóxicos, corrosivos, inflamables, n.e.p.",
+              "Número UN": "UN 3361, Clorosilanos, tóxicos, corrosivos, n.e.p.",
               "Embalaje interior (véase 6.1 )": "Vidrio",
-              "Embalaje interior (véase 6.1 )_1": "Vidrio",
               "Cantidad neta por embalaje interior Avión de Carga Solamente (“Cargo Aircraft Only”)": "1,0 L",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "30,0 L",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "30,0 L"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "30,0 L"
             },
             {
-              "Número UN": "UN 3361, Clorosilanos, tóxicos, corrosivos, n.e.p. UN 3362, Clorosilanos, tóxicos, corrosivos, inflamables, n.e.p.",
-              "Embalaje interior (véase 6.1 )": "",
-              "Embalaje interior (véase 6.1 )_1": "",
-              "Cantidad neta por embalaje interior Avión de Carga Solamente (“Cargo Aircraft Only”)": "",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "30,0 L",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "30,0 L"
-            },
-            {
-              "Número UN": "UN 3361, Clorosilanos, tóxicos, corrosivos, n.e.p. UN 3362, Clorosilanos, tóxicos, corrosivos, inflamables, n.e.p.",
-              "Embalaje interior (véase 6.1 )": "",
-              "Embalaje interior (véase 6.1 )_1": "",
-              "Cantidad neta por embalaje interior Avión de Carga Solamente (“Cargo Aircraft Only”)": "",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "30,0 L",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "30,0 L"
-            },
-            {
-              "Número UN": "UN 3361, Clorosilanos, tóxicos, corrosivos, n.e.p. UN 3362, Clorosilanos, tóxicos, corrosivos, inflamables, n.e.p.",
+              "Número UN": "UN 3361, Clorosilanos, tóxicos, corrosivos, n.e.p.",
               "Embalaje interior (véase 6.1 )": "Acero",
-              "Embalaje interior (véase 6.1 )_1": "Acero",
               "Cantidad neta por embalaje interior Avión de Carga Solamente (“Cargo Aircraft Only”)": "5,0 L",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "30,0 L",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "30,0 L"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "30,0 L"
             },
             {
-              "Número UN": "UN 3361, Clorosilanos, tóxicos, corrosivos, n.e.p. UN 3362, Clorosilanos, tóxicos, corrosivos, inflamables, n.e.p.",
-              "Embalaje interior (véase 6.1 )": "",
-              "Embalaje interior (véase 6.1 )_1": "",
-              "Cantidad neta por embalaje interior Avión de Carga Solamente (“Cargo Aircraft Only”)": "",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "30,0 L",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "30,0 L"
-            },
-            {
-              "Número UN": "UN 3361, Clorosilanos, tóxicos, corrosivos, n.e.p. UN 3362, Clorosilanos, tóxicos, corrosivos, inflamables, n.e.p.",
-              "Embalaje interior (véase 6.1 )": "",
-              "Embalaje interior (véase 6.1 )_1": "",
-              "Cantidad neta por embalaje interior Avión de Carga Solamente (“Cargo Aircraft Only”)": "",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "30,0 L",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "30,0 L"
-            },
-            {
-              "Número UN": "UN 3361, Clorosilanos, tóxicos, corrosivos, n.e.p. UN 3362, Clorosilanos, tóxicos, corrosivos, inflamables, n.e.p.",
+              "Número UN": "UN 3361, Clorosilanos, tóxicos, corrosivos, n.e.p.",
               "Embalaje interior (véase 6.1 )": "Plástico",
-              "Embalaje interior (véase 6.1 )_1": "Plástico",
               "Cantidad neta por embalaje interior Avión de Carga Solamente (“Cargo Aircraft Only”)": "Prohibido",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "30,0 L",
-              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)_1": "30,0 L"
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "30,0 L"
+            },
+            {
+              "Número UN": "UN 3362, Clorosilanos, tóxicos, corrosivos, inflamables, n.e.p.",
+              "Embalaje interior (véase 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior Avión de Carga Solamente (“Cargo Aircraft Only”)": "1,0 L",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "30,0 L"
+            },
+            {
+              "Número UN": "UN 3362, Clorosilanos, tóxicos, corrosivos, inflamables, n.e.p.",
+              "Embalaje interior (véase 6.1 )": "Acero",
+              "Cantidad neta por embalaje interior Avión de Carga Solamente (“Cargo Aircraft Only”)": "5,0 L",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "30,0 L"
+            },
+            {
+              "Número UN": "UN 3362, Clorosilanos, tóxicos, corrosivos, inflamables, n.e.p.",
+              "Embalaje interior (véase 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior Avión de Carga Solamente (“Cargo Aircraft Only”)": "Prohibido",
+              "Cantidad neta total por bulto Avión de Carga Solamente (“Cargo Aircraft Only”)": "30,0 L"
             }
           ]
         },
@@ -29976,15 +30320,15 @@
           "titulo": "EMBALAJES COMBINADOS",
           "encabezados": [
             "Número UN",
-            "col_1",
+            "",
             "Cantidad neta total por bulto"
           ],
           "num_filas": 1,
           "filas": [
             {
               "Número UN": "UN 2028, Bombas fumígenas no explosivas",
-              "col_1": "Las bombas fumígenas pueden transportarse siempre que no contenga elementos de ignición, cargas detonantes, mechas detonantes u otros componentes explosivos.",
-              "Cantidad neta total por bulto": "50,0 kg"
+              "Cantidad neta total por bulto": "50,0 kg",
+              "": "Las bombas fumígenas pueden transportarse siempre que no contenga elementos de ignición, cargas detonantes, mechas detonantes u otros componentes explosivos."
             }
           ]
         },
@@ -30377,17 +30721,21 @@
           "titulo": null,
           "encabezados": [
             "Número UN",
-            "col_1",
-            "col_2",
+            "",
             "Cantidad neta por bulto Avión de pasajeros",
             "Cantidad neta por bulto Avión de carga solamente (“Cargo Aircraft Only”)"
           ],
-          "num_filas": 1,
+          "num_filas": 2,
           "filas": [
             {
-              "Número UN": "UN 2794, Acumuladores eléctricos de electrolito líquido ácido UN 2795, Acumuladores eléctricos de electrolito líquido alcalino",
-              "col_1": "Las baterías deben embalarse en uno de los embalajes exteriores que se muestran a continuación y deben incorporar un forro resistente al ácido/álcali suficientemente fuerte y sellado para impedir las fugas totalmente en caso de derrame. Las baterías deben estar embaladas de manera que las aperturas de llenado y de descarga, en caso de haberlas, queden hacia arriba, no puedan producir cortocircuitos y estén bien acolchadas en los embalajes. La posición vertical del bulto debe estar indicada de forma permanente mediante las etiquetas de “Orientación del bulto”, tal y como se muestra en 7.2.4.4. Las palabras “Este lado hacia arriba” (THIS SIDE UP) o “Este extremo hacia arriba” (THIS END UP) pueden mostrarse también sobre la tapa del bulto.",
-              "col_2": "Las baterías deben embalarse en uno de los embalajes exteriores que se muestran a continuación y deben incorporar un forro resistente al ácido/álcali suficientemente fuerte y sellado para impedir las fugas totalmente en caso de derrame. Las baterías deben estar embaladas de manera que las aperturas de llenado y de descarga, en caso de haberlas, queden hacia arriba, no puedan producir cortocircuitos y estén bien acolchadas en los embalajes. La posición vertical del bulto debe estar indicada de forma permanente mediante las etiquetas de “Orientación del bulto”, tal y como se muestra en 7.2.4.4. Las palabras “Este lado hacia arriba” (THIS SIDE UP) o “Este extremo hacia arriba” (THIS END UP) pueden mostrarse también sobre la tapa del bulto.",
+              "Número UN": "UN 2794, Acumuladores eléctricos de electrolito líquido ácido",
+              "": "Las baterías deben embalarse en uno de los embalajes exteriores que se muestran a continuación y deben incorporar un forro resistente al ácido/álcali suficientemente fuerte y sellado para impedir las fugas totalmente en caso de derrame. Las baterías deben estar embaladas de manera que las aperturas de llenado y de descarga, en caso de haberlas, queden hacia arriba, no puedan producir cortocircuitos y estén bien acolchadas en los embalajes. La posición vertical del bulto debe estar indicada de forma permanente mediante las etiquetas de “Orientación del bulto”, tal y como se muestra en 7.2.4.4. Las palabras “Este lado hacia arriba” (THIS SIDE UP) o “Este extremo hacia arriba” (THIS END UP) pueden mostrarse también sobre la tapa del bulto.",
+              "Cantidad neta por bulto Avión de pasajeros": "30 kg",
+              "Cantidad neta por bulto Avión de carga solamente (“Cargo Aircraft Only”)": "400 kg"
+            },
+            {
+              "Número UN": "UN 2795, Acumuladores eléctricos de electrolito líquido alcalino",
+              "": "Las baterías deben embalarse en uno de los embalajes exteriores que se muestran a continuación y deben incorporar un forro resistente al ácido/álcali suficientemente fuerte y sellado para impedir las fugas totalmente en caso de derrame. Las baterías deben estar embaladas de manera que las aperturas de llenado y de descarga, en caso de haberlas, queden hacia arriba, no puedan producir cortocircuitos y estén bien acolchadas en los embalajes. La posición vertical del bulto debe estar indicada de forma permanente mediante las etiquetas de “Orientación del bulto”, tal y como se muestra en 7.2.4.4. Las palabras “Este lado hacia arriba” (THIS SIDE UP) o “Este extremo hacia arriba” (THIS END UP) pueden mostrarse también sobre la tapa del bulto.",
               "Cantidad neta por bulto Avión de pasajeros": "30 kg",
               "Cantidad neta por bulto Avión de carga solamente (“Cargo Aircraft Only”)": "400 kg"
             }
@@ -30474,8 +30822,7 @@
           "titulo": null,
           "encabezados": [
             "Número UN",
-            "col_1",
-            "col_2",
+            "",
             "Cantidad neta por bulto Avión de pasajeros",
             "Cantidad neta por bulto Avión de carga solamente (“Cargo Aircraft Only”)"
           ],
@@ -30483,10 +30830,9 @@
           "filas": [
             {
               "Número UN": "UN 3028, Acumuladores eléctricos secos que contienen hidróxido de potasio sólido",
-              "col_1": "Los acumuladores eléctricos deben estar embalados en uno de los embalajes exteriores que se muestra a continuación y deben ir bien acolchados en los embalajes.",
-              "col_2": "Los acumuladores eléctricos deben estar embalados en uno de los embalajes exteriores que se muestra a continuación y deben ir bien acolchados en los embalajes.",
               "Cantidad neta por bulto Avión de pasajeros": "25 kg",
-              "Cantidad neta por bulto Avión de carga solamente (“Cargo Aircraft Only”)": "230 kg"
+              "Cantidad neta por bulto Avión de carga solamente (“Cargo Aircraft Only”)": "230 kg",
+              "": "Los acumuladores eléctricos deben estar embalados en uno de los embalajes exteriores que se muestra a continuación y deben ir bien acolchados en los embalajes."
             }
           ]
         },
@@ -30543,19 +30889,15 @@
           "titulo": null,
           "encabezados": [
             "Número UN",
-            "col_1",
-            "col_2",
-            "Cantidad por bulto",
-            "Cantidad por bulto_1"
+            "",
+            "Cantidad por bulto"
           ],
           "num_filas": 1,
           "filas": [
             {
               "Número UN": "UN 2800, Acumuladores eléctricos no derramables de electrolito líquido",
-              "col_1": "Los acumuladores eléctricos deben protegerse contra cortocircuitos, y deben estar bien embalados en embalajes exteriores resistentes.",
-              "col_2": "Los acumuladores eléctricos deben protegerse contra cortocircuitos, y deben estar bien embalados en embalajes exteriores resistentes.",
               "Cantidad por bulto": "Sin límite",
-              "Cantidad por bulto_1": "Sin límite"
+              "": "Los acumuladores eléctricos deben protegerse contra cortocircuitos, y deben estar bien embalados en embalajes exteriores resistentes."
             }
           ]
         },
@@ -31698,15 +32040,13 @@
           "titulo": "EMBALAJES COMBINADOS",
           "encabezados": [
             "Número UN",
-            "Cantidad máxima por bulto",
-            "Cantidad máxima por bulto_1"
+            "Cantidad máxima por bulto"
           ],
           "num_filas": 1,
           "filas": [
             {
               "Número UN": "UN 3477 Cartuchos para pilas de combustible , que contienen sustancias corrosivas",
-              "Cantidad máxima por bulto": "2,5 kg de cartuchos para pilas de combustible",
-              "Cantidad máxima por bulto_1": "2,5 kg de cartuchos para pilas de combustible"
+              "Cantidad máxima por bulto": "2,5 kg de cartuchos para pilas de combustible"
             }
           ]
         },
@@ -31793,7 +32133,7 @@
           "num_filas": 1,
           "filas": [
             {
-              "Número UN": "UN 3166 , Vehículo propulsado por líquido inflamable o Vehículo con pila de combustible propulsado por líquido\ninflamable",
+              "Número UN": "UN 3166 , Vehículo propulsado por líquido inflamable o Vehículo con pila de combustible propulsado por líquido inflamable",
               "Cantidad total Avión de pasajeros": "Sin límite",
               "Cantidad total Avión de carga solamente": "Sin límite"
             }
@@ -32098,10 +32438,15 @@
             "Cantidad total por bulto Avión de pasajeros",
             "Cantidad total por bulto Avión de carga solamente"
           ],
-          "num_filas": 1,
+          "num_filas": 2,
           "filas": [
             {
-              "Número UN": "UN 2990, Equipos de salvamento autoinflables u UN 3072, Equipos de salvamento no autoinflables",
+              "Número UN": "UN 2990, Equipos de salvamento autoinflables",
+              "Cantidad total por bulto Avión de pasajeros": "Sin límite",
+              "Cantidad total por bulto Avión de carga solamente": "Sin límite"
+            },
+            {
+              "Número UN": "UN 3072, Equipos de salvamento no autoinflables",
               "Cantidad total por bulto Avión de pasajeros": "Sin límite",
               "Cantidad total por bulto Avión de carga solamente": "Sin límite"
             }
@@ -32158,40 +32503,33 @@
           "titulo": "EMBALAJES COMBINADOS",
           "encabezados": [
             "Embalaje interior (ver 6.1 )",
-            "Cantidad neta por embalaje interior",
-            "Cantidad neta por embalaje interior_1"
+            "Cantidad neta por embalaje interior"
           ],
           "num_filas": 6,
           "filas": [
             {
               "Embalaje interior (ver 6.1 )": "Cartón",
-              "Cantidad neta por embalaje interior": "50,0 kg",
-              "Cantidad neta por embalaje interior_1": "50,0 kg"
+              "Cantidad neta por embalaje interior": "50,0 kg"
             },
             {
               "Embalaje interior (ver 6.1 )": "Vidrio",
-              "Cantidad neta por embalaje interior": "10,0 kg",
-              "Cantidad neta por embalaje interior_1": "10,0 kg"
+              "Cantidad neta por embalaje interior": "10,0 kg"
             },
             {
               "Embalaje interior (ver 6.1 )": "Metal",
-              "Cantidad neta por embalaje interior": "50,0 kg",
-              "Cantidad neta por embalaje interior_1": "50,0 kg"
+              "Cantidad neta por embalaje interior": "50,0 kg"
             },
             {
               "Embalaje interior (ver 6.1 )": "Saco de papel",
-              "Cantidad neta por embalaje interior": "50,0 kg",
-              "Cantidad neta por embalaje interior_1": "50,0 kg"
+              "Cantidad neta por embalaje interior": "50,0 kg"
             },
             {
               "Embalaje interior (ver 6.1 )": "Plástico",
-              "Cantidad neta por embalaje interior": "50,0 kg",
-              "Cantidad neta por embalaje interior_1": "50,0 kg"
+              "Cantidad neta por embalaje interior": "50,0 kg"
             },
             {
               "Embalaje interior (ver 6.1 )": "Sacos de plástico",
-              "Cantidad neta por embalaje interior": "50,0 kg",
-              "Cantidad neta por embalaje interior_1": "50,0 kg"
+              "Cantidad neta por embalaje interior": "50,0 kg"
             }
           ]
         },
@@ -32202,10 +32540,25 @@
             "Cantidad total por bulto Avión de pasajeros",
             "Cantidad total por bulto Avión de carga solamente"
           ],
-          "num_filas": 4,
+          "num_filas": 8,
           "filas": [
             {
-              "Número UN": "UN 1931, Ditionito de cinc , o Hidrosulfito de cinc UN 2216, Harina de pescado, estabilizada UN 3152, Difenilos polihalogenados sólidos , Terfenilos polihalogenados sólidos o Monometildifenil metanos halogenados sólidos UN 3432, Difenilos policlorinados, sólidos",
+              "Número UN": "UN 1931, Ditionito de cinc, o Hidrosulfito de cinc",
+              "Cantidad total por bulto Avión de pasajeros": "100 kg",
+              "Cantidad total por bulto Avión de carga solamente": "200 kg"
+            },
+            {
+              "Número UN": "UN 2216, Harina de pescado, estabilizada",
+              "Cantidad total por bulto Avión de pasajeros": "100 kg",
+              "Cantidad total por bulto Avión de carga solamente": "200 kg"
+            },
+            {
+              "Número UN": "UN 3152, Difenilos polihalogenados sólidos, Terfenilos polihalogenados sólidos o Monometildifenil metanos halogenados sólidos",
+              "Cantidad total por bulto Avión de pasajeros": "100 kg",
+              "Cantidad total por bulto Avión de carga solamente": "200 kg"
+            },
+            {
+              "Número UN": "UN 3432, Difenilos policlorinados, sólidos",
               "Cantidad total por bulto Avión de pasajeros": "100 kg",
               "Cantidad total por bulto Avión de carga solamente": "200 kg"
             },
@@ -32215,7 +32568,12 @@
               "Cantidad total por bulto Avión de carga solamente": "200 kg"
             },
             {
-              "Número UN": "UN 3077, Sustancia nociva para el medio ambiente, sólida, n.e.p. ★ UN 3335, Sólido regulado para aviación, n.e.p. ★",
+              "Número UN": "UN 3077, Sustancia nociva para el medio ambiente, sólida, n.e.p. ★",
+              "Cantidad total por bulto Avión de pasajeros": "400 kg",
+              "Cantidad total por bulto Avión de carga solamente": "400 kg"
+            },
+            {
+              "Número UN": "UN 3335, Sólido regulado para aviación, n.e.p. ★",
               "Cantidad total por bulto Avión de pasajeros": "400 kg",
               "Cantidad total por bulto Avión de carga solamente": "400 kg"
             },
@@ -32483,40 +32841,33 @@
           "titulo": "EMBALAJES COMBINADOS",
           "encabezados": [
             "Embalaje interior  (ver 6.1 )",
-            "Cantidad neta por embalaje interior",
-            "Cantidad neta por embalaje interior_1"
+            "Cantidad neta por embalaje interior"
           ],
           "num_filas": 6,
           "filas": [
             {
               "Embalaje interior  (ver 6.1 )": "Cartón",
-              "Cantidad neta por embalaje interior": "50,0 kg",
-              "Cantidad neta por embalaje interior_1": "50,0 kg"
+              "Cantidad neta por embalaje interior": "50,0 kg"
             },
             {
               "Embalaje interior  (ver 6.1 )": "Vidrio",
-              "Cantidad neta por embalaje interior": "10,0 kg",
-              "Cantidad neta por embalaje interior_1": "10,0 kg"
+              "Cantidad neta por embalaje interior": "10,0 kg"
             },
             {
               "Embalaje interior  (ver 6.1 )": "Metal",
-              "Cantidad neta por embalaje interior": "50,0 kg",
-              "Cantidad neta por embalaje interior_1": "50,0 kg"
+              "Cantidad neta por embalaje interior": "50,0 kg"
             },
             {
               "Embalaje interior  (ver 6.1 )": "Saco de papel",
-              "Cantidad neta por embalaje interior": "50,0 kg",
-              "Cantidad neta por embalaje interior_1": "50,0 kg"
+              "Cantidad neta por embalaje interior": "50,0 kg"
             },
             {
               "Embalaje interior  (ver 6.1 )": "Plástico",
-              "Cantidad neta por embalaje interior": "50,0 kg",
-              "Cantidad neta por embalaje interior_1": "50,0 kg"
+              "Cantidad neta por embalaje interior": "50,0 kg"
             },
             {
               "Embalaje interior  (ver 6.1 )": "Saco plástico",
-              "Cantidad neta por embalaje interior": "50,0 kg",
-              "Cantidad neta por embalaje interior_1": "50,0 kg"
+              "Cantidad neta por embalaje interior": "50,0 kg"
             }
           ]
         },
@@ -32525,7 +32876,6 @@
           "encabezados": [
             "Número UN",
             "Cantidad neta por bulto Avión de pasajeros",
-            "Cantidad neta por bulto Avión de pasajeros_1",
             "Cantidad neta por bulto Avión de carga solamente"
           ],
           "num_filas": 2,
@@ -32533,13 +32883,11 @@
             {
               "Número UN": "UN 2211, Polímeros expansibles en perlas",
               "Cantidad neta por bulto Avión de pasajeros": "100,0 kg",
-              "Cantidad neta por bulto Avión de pasajeros_1": "100,0 kg",
               "Cantidad neta por bulto Avión de carga solamente": "200,0 kg"
             },
             {
               "Número UN": "UN 3314, Compuesto plástico para moldeo",
               "Cantidad neta por bulto Avión de pasajeros": "100,0 kg",
-              "Cantidad neta por bulto Avión de pasajeros_1": "100,0 kg",
               "Cantidad neta por bulto Avión de carga solamente": "200,0 kg"
             }
           ]
@@ -32708,40 +33056,76 @@
             "Cantidad neta por embalaje interior",
             "Cantidad neta por bulto"
           ],
-          "num_filas": 6,
+          "num_filas": 12,
           "filas": [
             {
-              "Número UN": "UN 2071, Abonos a base de nitrato amónico UN 2590, Asbesto, crisotilo",
+              "Número UN": "UN 2071, Abonos a base de nitrato amónico",
               "Embalaje interior (ver 6.1 )": "Cartón",
               "Cantidad neta por embalaje interior": "50 kg",
               "Cantidad neta por bulto": "200,0 kg"
             },
             {
-              "Número UN": "UN 2071, Abonos a base de nitrato amónico UN 2590, Asbesto, crisotilo",
+              "Número UN": "UN 2590, Asbesto, crisotilo",
+              "Embalaje interior (ver 6.1 )": "Cartón",
+              "Cantidad neta por embalaje interior": "50 kg",
+              "Cantidad neta por bulto": "200,0 kg"
+            },
+            {
+              "Número UN": "UN 2071, Abonos a base de nitrato amónico",
               "Embalaje interior (ver 6.1 )": "Vidrio",
               "Cantidad neta por embalaje interior": "10 kg",
               "Cantidad neta por bulto": "200,0 kg"
             },
             {
-              "Número UN": "UN 2071, Abonos a base de nitrato amónico UN 2590, Asbesto, crisotilo",
+              "Número UN": "UN 2590, Asbesto, crisotilo",
+              "Embalaje interior (ver 6.1 )": "Vidrio",
+              "Cantidad neta por embalaje interior": "10 kg",
+              "Cantidad neta por bulto": "200,0 kg"
+            },
+            {
+              "Número UN": "UN 2071, Abonos a base de nitrato amónico",
               "Embalaje interior (ver 6.1 )": "Metal",
               "Cantidad neta por embalaje interior": "50 kg",
               "Cantidad neta por bulto": "200,0 kg"
             },
             {
-              "Número UN": "UN 2071, Abonos a base de nitrato amónico UN 2590, Asbesto, crisotilo",
+              "Número UN": "UN 2590, Asbesto, crisotilo",
+              "Embalaje interior (ver 6.1 )": "Metal",
+              "Cantidad neta por embalaje interior": "50 kg",
+              "Cantidad neta por bulto": "200,0 kg"
+            },
+            {
+              "Número UN": "UN 2071, Abonos a base de nitrato amónico",
               "Embalaje interior (ver 6.1 )": "Saco de papel",
               "Cantidad neta por embalaje interior": "50 kg",
               "Cantidad neta por bulto": "200,0 kg"
             },
             {
-              "Número UN": "UN 2071, Abonos a base de nitrato amónico UN 2590, Asbesto, crisotilo",
+              "Número UN": "UN 2590, Asbesto, crisotilo",
+              "Embalaje interior (ver 6.1 )": "Saco de papel",
+              "Cantidad neta por embalaje interior": "50 kg",
+              "Cantidad neta por bulto": "200,0 kg"
+            },
+            {
+              "Número UN": "UN 2071, Abonos a base de nitrato amónico",
               "Embalaje interior (ver 6.1 )": "Plástico",
               "Cantidad neta por embalaje interior": "50 kg",
               "Cantidad neta por bulto": "200,0 kg"
             },
             {
-              "Número UN": "UN 2071, Abonos a base de nitrato amónico UN 2590, Asbesto, crisotilo",
+              "Número UN": "UN 2590, Asbesto, crisotilo",
+              "Embalaje interior (ver 6.1 )": "Plástico",
+              "Cantidad neta por embalaje interior": "50 kg",
+              "Cantidad neta por bulto": "200,0 kg"
+            },
+            {
+              "Número UN": "UN 2071, Abonos a base de nitrato amónico",
+              "Embalaje interior (ver 6.1 )": "Saco plástico",
+              "Cantidad neta por embalaje interior": "50 kg",
+              "Cantidad neta por bulto": "200,0 kg"
+            },
+            {
+              "Número UN": "UN 2590, Asbesto, crisotilo",
               "Embalaje interior (ver 6.1 )": "Saco plástico",
               "Cantidad neta por embalaje interior": "50 kg",
               "Cantidad neta por bulto": "200,0 kg"
@@ -33008,7 +33392,6 @@
           "encabezados": [
             "Número UN",
             "Cantidad por bulto Avión de pasajeros",
-            "Cantidad por bulto Avión de pasajeros_1",
             "Cantidad por bulto Avión de carga solamente"
           ],
           "num_filas": 2,
@@ -33016,13 +33399,11 @@
             {
               "Número UN": "UN 3268, Dispositivos de Seguridad , de iniciación eléctrica",
               "Cantidad por bulto Avión de pasajeros": "25,0 kg",
-              "Cantidad por bulto Avión de pasajeros_1": "25,0 kg",
               "Cantidad por bulto Avión de carga solamente": "100,0 kg"
             },
             {
               "Número UN": "UN 3559, Dispositivos de dispersión de agentes extintores",
               "Cantidad por bulto Avión de pasajeros": "25,0 kg",
-              "Cantidad por bulto Avión de pasajeros_1": "25,0 kg",
               "Cantidad por bulto Avión de carga solamente": "100,0 kg"
             }
           ]
@@ -33111,29 +33492,21 @@
           "titulo": "EMBALAJES COMBINADOS",
           "encabezados": [
             "Número UN",
-            "Número UN_1",
-            "Cantidad neta máxima de mercancías peligrosas por bulto (excluido el material magnetizado)",
-            "Cantidad neta máxima de mercancías peligrosas por bulto (excluido el material magnetizado)_1"
+            "Cantidad neta máxima de mercancías peligrosas por bulto (excluido el material magnetizado)"
           ],
           "num_filas": 3,
           "filas": [
             {
               "Número UN": "UN 3363, Mercancías peligrosas en aparatos o Mercancías peligrosas en artículos o Mercancías peligrosas en maquinaria",
-              "Número UN_1": "UN 3363, Mercancías peligrosas en aparatos o Mercancías peligrosas en artículos o Mercancías peligrosas en maquinaria",
-              "Cantidad neta máxima de mercancías peligrosas por bulto (excluido el material magnetizado)": "Líquidos: 0,5 L",
-              "Cantidad neta máxima de mercancías peligrosas por bulto (excluido el material magnetizado)_1": "Líquidos: 0,5 L"
+              "Cantidad neta máxima de mercancías peligrosas por bulto (excluido el material magnetizado)": "Líquidos: 0,5 L"
             },
             {
               "Número UN": "UN 3363, Mercancías peligrosas en aparatos o Mercancías peligrosas en artículos o Mercancías peligrosas en maquinaria",
-              "Número UN_1": "UN 3363, Mercancías peligrosas en aparatos o Mercancías peligrosas en artículos o Mercancías peligrosas en maquinaria",
-              "Cantidad neta máxima de mercancías peligrosas por bulto (excluido el material magnetizado)": "Sólidos: 1,0 kg",
-              "Cantidad neta máxima de mercancías peligrosas por bulto (excluido el material magnetizado)_1": "Sólidos: 1,0 kg"
+              "Cantidad neta máxima de mercancías peligrosas por bulto (excluido el material magnetizado)": "Sólidos: 1,0 kg"
             },
             {
               "Número UN": "UN 3363, Mercancías peligrosas en aparatos o Mercancías peligrosas en artículos o Mercancías peligrosas en maquinaria",
-              "Número UN_1": "UN 3363, Mercancías peligrosas en aparatos o Mercancías peligrosas en artículos o Mercancías peligrosas en maquinaria",
-              "Cantidad neta máxima de mercancías peligrosas por bulto (excluido el material magnetizado)": "Gases (Div. 2.2 solamente): 0,5 kg",
-              "Cantidad neta máxima de mercancías peligrosas por bulto (excluido el material magnetizado)_1": "Gases (Div. 2.2 solamente): 0,5 kg"
+              "Cantidad neta máxima de mercancías peligrosas por bulto (excluido el material magnetizado)": "Gases (Div. 2.2 solamente): 0,5 kg"
             }
           ]
         },
@@ -33237,25 +33610,21 @@
           "titulo": "EMBALAJES COMBINADOS",
           "encabezados": [
             "Embalaje interior (ver 6.1 )",
-            "Cantidad neta por embalaje interior",
-            "Cantidad neta por embalaje interior_1"
+            "Cantidad neta por embalaje interior"
           ],
           "num_filas": 3,
           "filas": [
             {
               "Embalaje interior (ver 6.1 )": "Vidrio",
-              "Cantidad neta por embalaje interior": "10,0 L",
-              "Cantidad neta por embalaje interior_1": "10,0 L"
+              "Cantidad neta por embalaje interior": "10,0 L"
             },
             {
               "Embalaje interior (ver 6.1 )": "Metal",
-              "Cantidad neta por embalaje interior": "40,0 L",
-              "Cantidad neta por embalaje interior_1": "40,0 L"
+              "Cantidad neta por embalaje interior": "40,0 L"
             },
             {
               "Embalaje interior (ver 6.1 )": "Plástico",
-              "Cantidad neta por embalaje interior": "30,0 L",
-              "Cantidad neta por embalaje interior_1": "30,0 L"
+              "Cantidad neta por embalaje interior": "30,0 L"
             }
           ]
         },
@@ -33266,15 +33635,35 @@
             "Cantidad neta total por bulto Avión de pasajeros",
             "Cantidad neta total por bulto Avión de carga solamente"
           ],
-          "num_filas": 2,
+          "num_filas": 6,
           "filas": [
             {
-              "Número UN": "UN 1941, Dibromodifluorometano UN 1990, Benzaldehido UN 2315, Bifenilo policlorinado, líquido UN 3151, Difenilo polihalogenado líquido , o Terfenilo polihalogenado líquido o Monometildifenilmetanos halogenados líquidos",
+              "Número UN": "UN 1941, Dibromodifluorometano",
               "Cantidad neta total por bulto Avión de pasajeros": "100 L",
               "Cantidad neta total por bulto Avión de carga solamente": "220 L"
             },
             {
-              "Número UN": "UN 3082, Sustancia peligrosa para el medio ambiente, líquida, n.e.p. ★ UN 3334, Líquido regulado para aviación, n.e.p. ★",
+              "Número UN": "UN 1990, Benzaldehido",
+              "Cantidad neta total por bulto Avión de pasajeros": "100 L",
+              "Cantidad neta total por bulto Avión de carga solamente": "220 L"
+            },
+            {
+              "Número UN": "UN 2315, Bifenilo policlorinado, líquido",
+              "Cantidad neta total por bulto Avión de pasajeros": "100 L",
+              "Cantidad neta total por bulto Avión de carga solamente": "220 L"
+            },
+            {
+              "Número UN": "UN 3151, Difenilo polihalogenado líquido, o Terfenilo polihalogenado líquido o Monometildifenilmetanos halogenados líquidos",
+              "Cantidad neta total por bulto Avión de pasajeros": "100 L",
+              "Cantidad neta total por bulto Avión de carga solamente": "220 L"
+            },
+            {
+              "Número UN": "UN 3082, Sustancia peligrosa para el medio ambiente, líquida, n.e.p. ★",
+              "Cantidad neta total por bulto Avión de pasajeros": "450 L",
+              "Cantidad neta total por bulto Avión de carga solamente": "450 L"
+            },
+            {
+              "Número UN": "UN 3334, Líquido regulado para aviación, n.e.p. ★",
               "Cantidad neta total por bulto Avión de pasajeros": "450 L",
               "Cantidad neta total por bulto Avión de carga solamente": "450 L"
             }
@@ -33576,16 +33965,16 @@
         {
           "titulo": null,
           "encabezados": [
-            "col_0",
+            "",
             "Cantidad neta por bulto Avión de pasajeros",
             "Cantidad neta por bulto Avión de carga solamente"
           ],
           "num_filas": 1,
           "filas": [
             {
-              "col_0": "Pilas y baterías de ion litio",
               "Cantidad neta por bulto Avión de pasajeros": "Prohibido",
-              "Cantidad neta por bulto Avión de carga solamente": "10 kg"
+              "Cantidad neta por bulto Avión de carga solamente": "10 kg",
+              "": "Pilas y baterías de ion litio"
             }
           ]
         },
@@ -33812,16 +34201,16 @@
         {
           "titulo": null,
           "encabezados": [
-            "col_0",
+            "",
             "Avión de pasajeros",
             "Avión de carga solamente"
           ],
           "num_filas": 1,
           "filas": [
             {
-              "col_0": "Cantidad neta de pilas o baterías de ion litio por bulto",
               "Avión de pasajeros": "5 kg",
-              "Avión de carga solamente": "5 kg"
+              "Avión de carga solamente": "5 kg",
+              "": "Cantidad neta de pilas o baterías de ion litio por bulto"
             }
           ]
         },
@@ -34039,16 +34428,16 @@
         {
           "titulo": null,
           "encabezados": [
-            "col_0",
+            "",
             "Avión de pasajeros",
             "Avión de carga solamente"
           ],
           "num_filas": 1,
           "filas": [
             {
-              "col_0": "Cantidad neta de pilas o baterías de ion litio por bulto",
               "Avión de pasajeros": "5 kg",
-              "Avión de carga solamente": "5 kg"
+              "Avión de carga solamente": "5 kg",
+              "": "Cantidad neta de pilas o baterías de ion litio por bulto"
             }
           ]
         },
@@ -34246,16 +34635,16 @@
         {
           "titulo": null,
           "encabezados": [
-            "col_0",
+            "",
             "Cantidad neta por bulto Avión de pasajeros",
             "Cantidad neta por bulto Avión de carga solamente"
           ],
           "num_filas": 1,
           "filas": [
             {
-              "col_0": "Pilas y baterías de metal litio",
               "Cantidad neta por bulto Avión de pasajeros": "Prohibido",
-              "Cantidad neta por bulto Avión de carga solamente": "2,5 kg"
+              "Cantidad neta por bulto Avión de carga solamente": "2,5 kg",
+              "": "Pilas y baterías de metal litio"
             }
           ]
         },
@@ -34494,16 +34883,16 @@
         {
           "titulo": null,
           "encabezados": [
-            "col_0",
+            "",
             "Avión de pasajeros",
             "Avión de carga solamente"
           ],
           "num_filas": 1,
           "filas": [
             {
-              "col_0": "Cantidad neta de pilas o baterías de metal litio por bulto",
               "Avión de pasajeros": "5 kg",
-              "Avión de carga solamente": "5 kg"
+              "Avión de carga solamente": "5 kg",
+              "": "Cantidad neta de pilas o baterías de metal litio por bulto"
             }
           ]
         },
@@ -34726,16 +35115,16 @@
         {
           "titulo": null,
           "encabezados": [
-            "col_0",
+            "",
             "Avión de pasajeros",
             "Avión de carga solamente"
           ],
           "num_filas": 1,
           "filas": [
             {
-              "col_0": "Cantidad neta de pilas o baterías de metal litio por bulto",
               "Avión de pasajeros": "5 kg",
-              "Avión de carga solamente": "5 kg"
+              "Avión de carga solamente": "5 kg",
+              "": "Cantidad neta de pilas o baterías de metal litio por bulto"
             }
           ]
         },
@@ -35173,16 +35562,16 @@
         {
           "titulo": null,
           "encabezados": [
-            "col_0",
+            "",
             "Avión de pasajeros",
             "Avión de carga"
           ],
           "num_filas": 1,
           "filas": [
             {
-              "col_0": "Cantidad neta de pilas o baterías de ion sodio por bulto",
               "Avión de pasajeros": "5 kg",
-              "Avión de carga": "5 kg"
+              "Avión de carga": "5 kg",
+              "": "Cantidad neta de pilas o baterías de ion sodio por bulto"
             }
           ]
         },
@@ -35307,16 +35696,16 @@
         {
           "titulo": null,
           "encabezados": [
-            "col_0",
+            "",
             "Avión de pasajeros",
             "Avión de carga"
           ],
           "num_filas": 1,
           "filas": [
             {
-              "col_0": "Cantidad neta de pilas o baterías de ion sodio por bulto",
               "Avión de pasajeros": "5 kg",
-              "Avión de carga": "5 kg"
+              "Avión de carga": "5 kg",
+              "": "Cantidad neta de pilas o baterías de ion sodio por bulto"
             }
           ]
         },

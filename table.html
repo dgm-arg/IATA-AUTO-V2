@@ -99,6 +99,11 @@
         </select>
       </div>
       <div class="col-6 col-md-2">
+        <select id="filterEtiq" class="form-select form-select-sm">
+          <option value="">Todas las etiquetas</option>
+        </select>
+      </div>
+      <div class="col-6 col-md-2">
         <select id="filterPI" class="form-select form-select-sm">
           <option value="">Mostrar todo</option>
           <option value="withPI">Con PI asignado</option>
@@ -150,6 +155,7 @@
       const res = await fetch('tabla_onu.json');
       allData = await res.json();
       populateClaseFilter();
+      populateEtiqFilter();
       applyFilters();
     }
 
@@ -164,10 +170,31 @@
       });
     }
 
+    function splitEtiq(val) {
+      return String(val || '')
+        .split(/[\n,&;/]| y | e /i)
+        .map(s => s.trim())
+        .filter(Boolean);
+    }
+
+    function populateEtiqFilter() {
+      const set = new Set();
+      allData.forEach(r => splitEtiq(r['Etiqueta(s) de peligro']).forEach(e => set.add(e)));
+      const etiqs = [...set].sort((a, b) => a.localeCompare(b, 'es', { numeric: true }));
+      const sel = document.getElementById('filterEtiq');
+      etiqs.forEach(e => {
+        const opt = document.createElement('option');
+        opt.value = e;
+        opt.textContent = e;
+        sel.appendChild(opt);
+      });
+    }
+
     function applyFilters() {
       const q = document.getElementById('searchInput').value.trim().toLowerCase();
       const clase = document.getElementById('filterClase').value;
       const grp = document.getElementById('filterGrp').value;
+      const etiq = document.getElementById('filterEtiq').value;
       const pi = document.getElementById('filterPI').value;
 
       filtered = allData.filter(r => {
@@ -182,6 +209,10 @@
         }
         if (clase && r['Clase o Div. (Peligros sec.)'] !== clase) return false;
         if (grp && r['Grp. De emb.'] !== grp) return false;
+        if (etiq) {
+          const parts = splitEtiq(r['Etiqueta(s) de peligro']);
+          if (!parts.includes(etiq)) return false;
+        }
         if (pi === 'withPI') {
           const hasPI = [r['APCCL-embalaje'], r['APC-embalaje'], r['AC-embalaje']]
             .some(v => v && v !== 'Prohibido' && v !== 'No restringido');
@@ -277,6 +308,7 @@
     document.getElementById('searchInput').addEventListener('input', applyFilters);
     document.getElementById('filterClase').addEventListener('change', applyFilters);
     document.getElementById('filterGrp').addEventListener('change', applyFilters);
+    document.getElementById('filterEtiq').addEventListener('change', applyFilters);
     document.getElementById('filterPI').addEventListener('change', applyFilters);
     document.getElementById('loadMoreBtn').addEventListener('click', renderRows);
 
